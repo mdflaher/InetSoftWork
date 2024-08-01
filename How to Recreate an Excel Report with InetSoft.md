@@ -15,7 +15,7 @@ This document contains instructions on how to recreate your Excel report using I
 
  
 
-This   [multilevel freehand table example](https://www.inetsoft.com/public/app/viewer/view/global/Dashboards/Return%20Analysis%20Table)   uses the Orders Details dataset. This table displays the information that would require three separate pivot tables if made in excel. Scroll sideways to see the three tables displayed as one. This table that combines pivot tables displaying orders by month broken down by team and salesperson, product category and product, and company.
+This   [multilevel freehand table example](https://www.inetsoft.com/public/app/viewer/view/global/Dashboards/Return%20Analysis%20Table)   uses the Orders Details dataset. This table displays the information that would require three separate pivot tables if made in excel. The goal is to have a combined pivotable that can scroll sideways to see the three tables displayed as one. This table that combines pivot tables displaying orders by month broken down by team and salesperson, product category and product, and company.
 
 ![](screenshots/combined-pivot-table1.PNG) ![](screenshots/combined-pivot-table2.PNG) ![](screenshots/combined-pivot-table3.PNG)
 
