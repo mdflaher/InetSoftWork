@@ -108,9 +108,11 @@ It ends with columns for company.
 
 # How do I group table columns under subheaders? <a name="sub"></a>
 
-Begin by completing the [first example](#pivot) 
+Begin by completing the [first example](#pivot). You now have a combination of several tables, two of which have redundant column headers for different subcolumns. 
 
+![](screenshots/combined-pivot-table1.PNG)
 
+To improve readability, we will combine these redundant column headers into single, wide headers.
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
