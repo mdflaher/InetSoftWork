@@ -121,7 +121,7 @@ Click the edit button on the table once again. Select the cell containing 'Sales
 
 ![](screenshots/merge-expanded-cells.PNG)
 
-Click 'Finish". The tables duplicate headers are now merged into single wide headers.
+Click 'Finish". The table's duplicate headers are now merged into single wide headers.
 
 ![](screenshots/table-header.PNG)
 
