@@ -143,7 +143,7 @@ Next, drag 'Gross Amount' into the bottom cell of each of the 'Total Orders' col
 
  Click 'Finish'. The table now has a total orders column at the end of each sub-table.
 
-  ![](screenshots/orders-total.PNG)
+  ![](screenshots/total-orders.PNG)
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
