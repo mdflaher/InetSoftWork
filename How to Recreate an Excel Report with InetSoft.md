@@ -115,7 +115,15 @@ Begin by completing the [first example](#pivot). You now have a combination of s
 
 To improve readability, we will combine these redundant column headers into single, wide headers.
 
+![](screenshots/table-header2.PNG)
 
+Click the edit button on the table once again. Select the cell containing 'Sales Team' and check the box for 'Merge Expanded Cells'. Select the cell containing 'Category' and check the box for 'Merge Expanded Cells' again.
+
+![](screenshots/merge-expanded-cells.PNG)
+
+Click 'Finish". The tables duplicate headers are now merged into single wide headers.
+
+![](screenshots/table-header.PNG)
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
