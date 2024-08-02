@@ -108,7 +108,7 @@ It ends with columns for company.
 
 # How do I group table columns under subheaders? <a name="sub"></a>
 
-
+Begin by completing the [first example](#pivot) 
 
 
 
