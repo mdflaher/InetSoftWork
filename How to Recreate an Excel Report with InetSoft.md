@@ -133,9 +133,13 @@ We will build upon the [first](#pivot) and [second](#sub) example and add a tota
 
 ![](screenshots/add-columns.PNG)
 
+Select the top cell in the first blank column. Hold the control key to multiselect and select the next cell underneath it. Right click, select 'Merge Cells' to merge the cells into one. Repeat with the first two cells of the remaining blank columns.
+
+![](screenshots/merge-cells-labels.PNG)
+
 Select the top cell in the first blank column. In the box next to 'Text', type "Total Orders" and press enter. Repeat for the remaining blank columns.
 
-![](screenshots/enter-total-orders-label.PNG)
+![](screenshots/enter-total-orders-label2.PNG)
 
 Next, drag 'Gross Amount' into the bottom cell of each of the 'Total Orders' columns. Make sure 'Summarize' is selected and set to 'Sum'.
 
@@ -143,7 +147,7 @@ Next, drag 'Gross Amount' into the bottom cell of each of the 'Total Orders' col
 
  Click 'Finish'. The table now has a total orders column at the end of each sub-table.
 
-  ![](screenshots/total-orders.PNG)
+  ![](screenshots/total-orders2.PNG)
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
