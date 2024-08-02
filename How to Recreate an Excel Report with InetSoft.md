@@ -121,7 +121,7 @@ To improve readability, we will combine these redundant column headers into sing
 
 Click the edit button on the table once again. Select the cell containing 'Sales Team' and check the box for 'Merge Expanded Cells'. Select the cell containing 'Category' and check the box for 'Merge Expanded Cells' again.
 
-![](screenshots/merge-expanded-cells.PNG)
+![](screenshots/merge-expanded-cells2.PNG)
 
 Click 'Finish". The table's duplicate headers are now merged into single wide headers.
 
@@ -129,7 +129,11 @@ Click 'Finish". The table's duplicate headers are now merged into single wide he
 
 # How do I perform calculations across multiple pivot tables? <a name="calc"></a>
 
-We will build upon the [first](#pivot) and [second](#sub) example and add
+We will build upon the [first](#pivot) and [second](#sub) example and add a total orders column to each sub-table. Open the table editor again. Select a cell in the middle column, right click, select 'Insert Column'. Select a cell in the column second to the right, right click and select 'Insert Column' again. You should now have blank columns in between each of the columns with horizontal expansion.
+
+![](screenshots/add-columns.PNG)
+
+
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
