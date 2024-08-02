@@ -129,8 +129,7 @@ Click 'Finish". The table's duplicate headers are now merged into single wide he
 
 # How do I perform calculations across multiple pivot tables? <a name="calc"></a>
 
-
-
+We will build upon the [first](#pivot) and [second](#sub) example and add
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
