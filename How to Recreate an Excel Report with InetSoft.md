@@ -112,7 +112,10 @@ Begin by completing the [first example](#pivot). You now have a combination of s
 
 ![](screenshots/combined-pivot-table1.PNG)
 
+
 To improve readability, we will combine these redundant column headers into single, wide headers.
+
+
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
