@@ -133,7 +133,13 @@ We will build upon the [first](#pivot) and [second](#sub) example and add a tota
 
 ![](screenshots/add-columns.PNG)
 
+Select the top cell in the first blank column. In the box next to 'Text', type "Orders Total" and press enter. Repeat for the remaining blank columns.
 
+![](screenshots/enter-total-orders-label.PNG)
+
+
+
+ ![](screenshots/repeat-for-remaining.PNG)
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
