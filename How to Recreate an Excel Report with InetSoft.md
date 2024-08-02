@@ -137,9 +137,13 @@ Select the top cell in the first blank column. In the box next to 'Text', type "
 
 ![](screenshots/enter-total-orders-label.PNG)
 
-
+Next, drag 'Gross Amount' into the bottom cell of each of the 'Total Orders' columns. Make sure 'Summarize' is selected and set to 'Sum'.
 
  ![](screenshots/repeat-for-remaining.PNG)
+
+ Click 'Finish'. The table now has a total orders column at the end of each sub-table.
+
+  ![](screenshots/orders-total.PNG)
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
