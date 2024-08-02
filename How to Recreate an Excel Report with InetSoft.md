@@ -4,9 +4,11 @@ This document contains instructions on how to recreate your Excel report using I
 
 [How do I combine multiple pivot tables into one table?](#pivot)
 
-[How do I include multiple lists in the same table?](#lists)
-
 [How do I group table columns under subheaders?](#sub)
+
+[How do I perform calculations across multiple combined pivot tables?](#calc)
+
+[How do I include multiple lists in the same table?](#lists)
 
 
 
@@ -106,11 +108,46 @@ It ends with columns for company.
 ![](screenshots/combined-pivot-table3.PNG)
 
 
+# How do I group table columns under subheaders? <a name="sub"></a>
+
+Begin by completing the [first example](#pivot). You now have a combination of several tables, two of which have redundant column headers for different subcolumns. 
+
+![](screenshots/combined-pivot-table1.PNG)
 
 
+To improve readability, we will combine these redundant column headers into single, wide headers.
 
+![](screenshots/table-header2.PNG)
 
+Click the edit button on the table once again. Select the cell containing 'Sales Team' and check the box for 'Merge Expanded Cells'. Select the cell containing 'Category' and check the box for 'Merge Expanded Cells' again.
 
+![](screenshots/merge-expanded-cells2.PNG)
+
+Click 'Finish". The table's duplicate headers are now merged into single wide headers.
+
+![](screenshots/table-header.PNG)
+
+# How do I perform calculations across multiple combined pivot tables? <a name="calc"></a>
+
+We will build upon the [first](#pivot) and [second](#sub) example and add a total orders column to each sub-table. Open the table editor again. Select a cell in the middle column, right click, select 'Insert Column'. Select a cell in the column second from the right, right click and select 'Insert Column' again. You should now have blank columns in between each of the columns with horizontal expansion.
+
+![](screenshots/add-columns.PNG)
+
+Select the top cell in the first blank column. Hold the control key to multiselect and select the next cell underneath it. Right click, select 'Merge Cells' to merge the cells into one. Repeat with the first two cells of the remaining blank columns.
+
+![](screenshots/merge-cells-labels.PNG)
+
+Select the top cell in the first blank column. In the box next to 'Text', type "Total Orders" and press enter. Repeat for the remaining blank columns.
+
+![](screenshots/enter-total-orders-label2.PNG)
+
+Next, drag 'Gross Amount' into the bottom cell of each of the 'Total Orders' columns. Make sure 'Summarize' is selected and set to 'Sum'.
+
+ ![](screenshots/repeat-for-remaining.PNG)
+
+ Click 'Finish'. The table now has a total orders column at the end of each sub-table.
+
+  ![](screenshots/total-orders2.PNG)
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
@@ -170,4 +207,5 @@ Select the top cell on the right. Make sure 'Text" is selected, type "Quantities
 click 'Finish'. We now have a combined lists of total sales and product quantities, by product category and region.
 
 ![](screenshots/combined-lists.PNG)
+
 
