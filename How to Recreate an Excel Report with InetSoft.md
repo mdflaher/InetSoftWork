@@ -6,7 +6,7 @@ This document contains instructions on how to recreate your Excel report using I
 
 [How do I group table columns under subheaders?](#sub)
 
-[How do I perform calculations across multiple pivot tables?](#calc)
+[How do I perform calculations across multiple combined pivot tables?](#calc)
 
 [How do I include multiple lists in the same table?](#lists)
 
@@ -127,7 +127,7 @@ Click 'Finish". The table's duplicate headers are now merged into single wide he
 
 ![](screenshots/table-header.PNG)
 
-# How do I perform calculations across multiple pivot tables? <a name="calc"></a>
+# How do I perform calculations across multiple combined pivot tables? <a name="calc"></a>
 
 We will build upon the [first](#pivot) and [second](#sub) example and add a total orders column to each sub-table. Open the table editor again. Select a cell in the middle column, right click, select 'Insert Column'. Select a cell in the column second from the right, right click and select 'Insert Column' again. You should now have blank columns in between each of the columns with horizontal expansion.
 
