@@ -129,7 +129,7 @@ Click 'Finish". The table's duplicate headers are now merged into single wide he
 
 # How do I perform calculations across multiple pivot tables? <a name="calc"></a>
 
-We will build upon the [first](#pivot) and [second](#sub) example and add a total orders column to each sub-table. Open the table editor again. Select a cell in the middle column, right click, select 'Insert Column'. Select a cell in the column second to the right, right click and select 'Insert Column' again. You should now have blank columns in between each of the columns with horizontal expansion.
+We will build upon the [first](#pivot) and [second](#sub) example and add a total orders column to each sub-table. Open the table editor again. Select a cell in the middle column, right click, select 'Insert Column'. Select a cell in the column second from the right, right click and select 'Insert Column' again. You should now have blank columns in between each of the columns with horizontal expansion.
 
 ![](screenshots/add-columns.PNG)
 
