@@ -171,3 +171,5 @@ click 'Finish'. We now have a combined lists of total sales and product quantiti
 
 ![](screenshots/combined-lists.PNG)
 
+
+# How do I group table columns under subheaders?
