@@ -4,9 +4,9 @@ This document contains instructions on how to recreate your Excel report using I
 
 [How do I combine multiple pivot tables into one table?](#pivot)
 
-[How do I include multiple lists in the same table?](#lists)
-
 [How do I group table columns under subheaders?](#sub)
+
+[How do I include multiple lists in the same table?](#lists)
 
 
 
@@ -106,7 +106,7 @@ It ends with columns for company.
 ![](screenshots/combined-pivot-table3.PNG)
 
 
-
+# How do I group table columns under subheaders? <a name="sub"></a>
 
 
 
@@ -172,4 +172,3 @@ click 'Finish'. We now have a combined lists of total sales and product quantiti
 ![](screenshots/combined-lists.PNG)
 
 
-# How do I group table columns under subheaders? <a name="sub"></a>
