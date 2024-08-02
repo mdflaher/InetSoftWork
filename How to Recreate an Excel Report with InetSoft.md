@@ -6,6 +6,8 @@ This document contains instructions on how to recreate your Excel report using I
 
 [How do I group table columns under subheaders?](#sub)
 
+[How do I perform calculations across multiple pivot tables?](#calc)
+
 [How do I include multiple lists in the same table?](#lists)
 
 
@@ -124,6 +126,11 @@ Click the edit button on the table once again. Select the cell containing 'Sales
 Click 'Finish". The table's duplicate headers are now merged into single wide headers.
 
 ![](screenshots/table-header.PNG)
+
+# How do I perform calculations across multiple pivot tables? <a name="calc"></a>
+
+
+
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
