@@ -8,6 +8,8 @@ This document contains instructions on how to recreate your Excel report using I
 
 [How do I perform calculations across multiple combined pivot tables?](#calc)
 
+[How do I sorty my column headers and subheaders based on data aggregates?](#sort)
+
 [How do I include multiple lists in the same table?](#lists)
 
 
@@ -148,6 +150,9 @@ Next, drag 'Gross Amount' into the bottom cell of each of the 'Total Orders' col
  Click 'Finish'. The table now has a total orders column at the end of each sub-table.
 
   ![](screenshots/total-orders2.PNG)
+
+
+  # How do I sorty my column headers and subheaders based on data aggregates? <a name="sort"></a>
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
