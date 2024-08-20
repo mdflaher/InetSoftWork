@@ -158,6 +158,19 @@ We will build upon the [first](#pivot), [second](#sub) and [third](#calc) exampl
 
 ![](screenshots/by-value-descending.PNG)
 
+You now have a table aggregates order data into rows based on month of the year. The table begins with columns for team and subcolumns for employee.
+
+  ![](screenshots/table-sorted.PNG)
+
+It then breaks the orders down by columns of product category and product.
+
+![](screenshots/table-sorted2.PNG)
+
+It ends with columns for company.
+
+![](screenshots/table-sorted3.PNG)
+
+
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
