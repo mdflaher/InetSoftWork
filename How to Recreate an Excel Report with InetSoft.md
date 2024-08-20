@@ -154,9 +154,10 @@ Next, drag 'Gross Amount' into the bottom cell of each of the 'Total Orders' col
 
   # How do I sort my column headers and subheaders based on data aggregates? <a name="sort"></a>
 
-We will build upon the [first](#pivot), [second](#sub) and [third](#calc) example and sort each column header and subheader by total orders. Open the table editor again. Select
+We will build upon the [first](#pivot), [second](#sub) and [third](#calc) example and sort each column header and subheader by total orders. Open the table editor again. Select the cell containing 'Sales Team'. click the pencil icon to the right of 'Group' to open grouping options. In the dropdown menu for 'Sort', select 'By Value (Desc)'. The dropdowm menu for 'By' should display 'Sum(Gross Amount) since it is the only aggregation performed in this table. Click the check mark icon to complete. Repeat the same selection for the remaining column types: Sales Rep, Category, Product, and Customer.
 
 ![](screenshots/by-value-descending.PNG)
+
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
