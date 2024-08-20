@@ -8,7 +8,7 @@ This document contains instructions on how to recreate your Excel report using I
 
 [How do I perform calculations across multiple combined pivot tables?](#calc)
 
-[How do I sorty my column headers and subheaders based on data aggregates?](#sort)
+[How do I sort my column headers and subheaders based on data aggregates?](#sort)
 
 [How do I include multiple lists in the same table?](#lists)
 
