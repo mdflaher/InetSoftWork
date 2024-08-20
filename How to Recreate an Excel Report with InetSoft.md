@@ -158,15 +158,15 @@ We will build upon the [first](#pivot), [second](#sub) and [third](#calc) exampl
 
 ![](screenshots/by-value-descending.PNG)
 
-You now have a table aggregates order data into rows based on month of the year. The table begins with columns for team and subcolumns for employee.
+The table now sorts teams and team members by total orders.
 
   ![](screenshots/table-sorted.PNG)
 
-It then breaks the orders down by columns of product category and product.
+It also sorts product categories and individual products by total orders.
 
 ![](screenshots/table-sorted2.PNG)
 
-It ends with columns for company.
+It also sorts customers by total orders.
 
 ![](screenshots/table-sorted3.PNG)
 
