@@ -152,7 +152,11 @@ Next, drag 'Gross Amount' into the bottom cell of each of the 'Total Orders' col
   ![](screenshots/total-orders2.PNG)
 
 
-  # How do I sorty my column headers and subheaders based on data aggregates? <a name="sort"></a>
+  # How do I sort my column headers and subheaders based on data aggregates? <a name="sort"></a>
+
+We will build upon the [first](#pivot), [second](#sub) and [third](#calc) example and sort each column header and subheader by total orders. Open the table editor again. Select
+
+![](screenshots/by-value-descending.PNG)
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
