@@ -158,7 +158,7 @@ We will build upon the [first](#pivot), [second](#sub) and [third](#calc) exampl
 
 ![](screenshots/by-value-descending.PNG)
 
-The table now sorts teams and team members by total orders.
+Click 'Finish'. The table now sorts teams and team members by total orders.
 
   ![](screenshots/table-sorted.PNG)
 
