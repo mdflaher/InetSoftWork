@@ -8,6 +8,8 @@ This document contains instructions on how to recreate your Excel report using I
 
 [How do I perform calculations across multiple combined pivot tables?](#calc)
 
+[How do I sort my column headers and subheaders based on data aggregates?](#sort)
+
 [How do I include multiple lists in the same table?](#lists)
 
 
@@ -148,6 +150,27 @@ Next, drag 'Gross Amount' into the bottom cell of each of the 'Total Orders' col
  Click 'Finish'. The table now has a total orders column at the end of each sub-table.
 
   ![](screenshots/total-orders2.PNG)
+
+
+  # How do I sort my column headers and subheaders based on data aggregates? <a name="sort"></a>
+
+We will build upon the [first](#pivot), [second](#sub) and [third](#calc) example and sort each column header and subheader by total orders. Open the table editor again. Select the cell containing 'Sales Team'. click the pencil icon to the right of 'Group' to open grouping options. In the dropdown menu for 'Sort', select 'By Value (Desc)'. The dropdowm menu for 'By' should display 'Sum(Gross Amount) since it is the only aggregation performed in this table. Click the check mark icon to complete. Repeat the same selection for the remaining column types: Sales Rep, Category, Product, and Customer.
+
+![](screenshots/by-value-descending.PNG)
+
+Click 'Finish'. The table now sorts teams and team members by total orders.
+
+  ![](screenshots/table-sorted.PNG)
+
+It also sorts product categories and individual products by total orders.
+
+![](screenshots/table-sorted2.PNG)
+
+It also sorts customers by total orders.
+
+![](screenshots/table-sorted3.PNG)
+
+
 
 # How do I include multiple lists in the same table? <a name="lists"></a>
 
