@@ -31,7 +31,7 @@ Click on the button with an F and X on it next to where 'Salesperson:First Name'
 ![](screenshots/change-to-variable.PNG)
 
 
-Click 'Finish'. You now have a chart that defaults as orders by salesperson.
+Click 'Finish'. You now have a [chart](https://www.inetsoft.com/public/app/viewer/view/global/Dashboards/radio%20button) that defaults as orders by salesperson.
 
 ![](screenshots/radio-button-result.PNG)
 
