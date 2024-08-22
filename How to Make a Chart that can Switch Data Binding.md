@@ -1,6 +1,6 @@
 # How do I make a chart that switches data bindings back and forth?
 
-This example uses the orders dataset. Drag out a chart and radio button from the left hand panel.
+This [radio button example](https://www.inetsoft.com/public/app/viewer/view/global/Dashboards/radio%20button) example uses the orders dataset. Drag out a chart and radio button from the left hand panel.
 
 
 ![](screenshots/drag-out-chart-and-button.PNG)
