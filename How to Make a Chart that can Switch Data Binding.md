@@ -6,7 +6,7 @@ This example uses the orders dataset. Drag out a chart and radio button from the
 ![](screenshots/drag-out-chart-and-button.PNG)
 
 
-Select the radio button so it is highlighed in orange as shown. Drag out dimensions 'Salesperson:First Name' and 'Customer:Company'. Click on the orange squares on either side of the highlighed radio button to stretch the element to a width necessary to show it's labels.
+Select the radio button so it is highlighed in orange as shown. Drag out dimensions 'Salesperson:First Name' and 'Customer:Company' into the radio button. Click on the orange squares on either side of the highlighed radio button to stretch the element to a width necessary to show it's labels.
 
 ![](screenshots/drag-dimensions-into-button.PNG)
 
