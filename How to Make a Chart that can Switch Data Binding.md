@@ -1,4 +1,4 @@
-# How do I make a chart that switches data bindingsback and forth?
+# How do I make a chart that switches data bindings back and forth?
 
 This example uses the orders dataset. Drag out a chart and radio button from the left hand panel.
 
