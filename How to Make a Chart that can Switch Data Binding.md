@@ -41,3 +41,9 @@ Click the radio button for 'Supplier:Company' and watch the chart switch to disp
 ![](screenshots/radio-button-result2.PNG)
 
 # How can I let the end user select any data binding?
+
+
+
+![](screenshots/edit-button.PNG)
+![](screenshots/select-chart-properties.PNG)
+![](screenshots/ad-hoc-editing.PNG)
