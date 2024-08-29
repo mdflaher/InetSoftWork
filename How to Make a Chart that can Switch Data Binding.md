@@ -42,8 +42,12 @@ Click the radio button for 'Supplier:Company' and watch the chart switch to disp
 
 # How can I let the end user select any data binding?
 
-
+InetSoft charts as a default have an edit button which allows the end user to open up the chart binding and swap in any fields they want or change aggregations.
 
 ![](screenshots/edit-button.PNG)
+
+If you'd rather not leave this functionality open to your end users, right click on the chart and select 'Properties'.
+
 ![](screenshots/select-chart-properties.PNG)
+
 ![](screenshots/ad-hoc-editing.PNG)
