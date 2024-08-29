@@ -50,4 +50,6 @@ If you'd rather not leave this functionality open to your end users, right click
 
 ![](screenshots/select-chart-properties.PNG)
 
+Click on the 'Advanced' tab. You can now check or uncheck 'Enable Ad Hoc editing' to enable or disable the feature for end users. 
+
 ![](screenshots/ad-hoc-editing.PNG)
