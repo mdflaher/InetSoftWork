@@ -39,3 +39,5 @@ Click 'Finish'. You now have a [chart](https://www.inetsoft.com/public/app/viewe
 Click the radio button for 'Supplier:Company' and watch the chart switch to displaying orders by supplier.
 
 ![](screenshots/radio-button-result2.PNG)
+
+# How can I let the end user select any data binding?
