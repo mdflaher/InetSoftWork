@@ -1,5 +1,5 @@
 # Should I use a table or a crosstab?
 
-From a concept of our wizard recommender perspective, just to cover a little bit of this. You can begin your search for the ideal chart oubput by making a note ofwhat our product would assume by using InetSoft's Visualization Reccomenderthe first thing is that the wizard Recommender will look to take whether or not you're working with a dimension.
+ You can begin your search for the ideal chart oubput by making a note ofwhat our product would assume by using InetSoft's Visualization Reccomenderthe first thing is that the wizard Recommender will look to take whether or not you're working with a dimension.
 
 versus a measure. In terms of multiple just multiple measures will dictate, default thing. It tries to show you. So if you grab just a dimension it's going to automatically look to Grab you a chart. So if you're just grabbing a simple text phrased field, it's going to automatically do a chart. However, If you start introducing additional dimensions. And you get to a third dimension. It is and you haven't pulled in any metrics, any kind of numeric fields, it's going to be you're not really going to be comparing three dimensions without some kind of summarized metric. Unless you're just doing a flat detail table.
