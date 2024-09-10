@@ -7,9 +7,10 @@
 
 Should I use a table or a crosstab? This depends on whether you want to display row level data or display grouped and summarized data.
 
-using the wizard can help you get an idea for how to display your data, what does the product assume? will vary based on whether dimensions or measures are chosen and how many of each
-once you get to three or more dimensions the rccomender often starts reccomending flat detail level table as that is the use case for several dimensions with no measures, 
-adding a measure from there switches back to a chart as it assumes an aggregated measure
+Using the reccomender wizard can help you get an idea for how to display your data. What method of displaying data does the product assume? this will vary based on whether dimensions or measures are chosen and how many of each.
+
+Once you get to three or more dimensions the reccomender often starts reccomending a flat detail level table as that is the common use case for several dimensions with no measures, since without measures there can't be aggregation. Adding a measure from there switches back to a chart as it assumes an aggregated measure.
+
 simple flat tables do not aggregate metrics, simply displays row data of columns selected, limited by dashboard filters
 switching to a crosstab results in reccomender choosing a pivot style table based on fields selected and order added, 
 with horizontal and vertical groupings, along row and column headers with calculated values populated throughout
