@@ -2,16 +2,17 @@
 
  You can begin your search for the ideal chart oubput by making a note of what our product would assume by using InetSoft's Visualization Reccomender. This is the option that first appears when you create a dashboard. It selects an ideal dashboard output option based on which columns from the dataset are selected. 
  
- The first thing that the wizard Recommender consider is whether or not you're working with a dimension versus a measure. Selecting a dimension automatically results in a chart. So if you're just grabbing a simple text phrased field, it's going to automatically do a chart. However, If you start introducing additional dimensions. And you get to a third dimension it may suggest a crosstab table.
+ The first thing that the wizard Recommender considers is whether or not you're working with a dimension versus a measure. Selecting a dimension automatically results in a chart. So if you're just grabbing a simple text phrased field, it's going to automatically do a chart. However, If you start introducing additional dimensions. And you get to a third dimension it may suggest a crosstab table.
 
 
 Should I use a table or a crosstab? This depends on whether you want to display row level data or display grouped and summarized data.
 
 Using the reccomender wizard can help you get an idea for how to display your data. What method of displaying data does the product assume? this will vary based on whether dimensions or measures are chosen and how many of each.
 
-Once you get to three or more dimensions the reccomender often starts reccomending a flat detail level table as that is the common use case for several dimensions with no measures, since without measures there can't be aggregation. Adding a measure from there switches back to a chart as it assumes an aggregated measure.
+Once you get to three or more dimensions the reccomender often starts reccomending a flat detail level table, as that is the common use case for several dimensions with no measures, since without measures there can't be aggregation. Adding a measure from there switches back to a chart as it assumes an aggregated measure.
 
-simple flat tables do not aggregate metrics, simply displays row data of columns selected, limited by dashboard filters
+A simple flat tables does not aggregate metrics; it simply displays individual detail level rows of the columns selected, limited by dashboard filters.
+
 switching to a crosstab results in reccomender choosing a pivot style table based on fields selected and order added, 
 with horizontal and vertical groupings, along row and column headers with calculated values populated throughout
 crosstab for people who want to display data in summarized way, for people who leave detail level data available in their dashboard design
