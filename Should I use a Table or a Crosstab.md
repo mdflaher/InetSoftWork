@@ -22,7 +22,8 @@ Tables are for detail level transactional data. A table presents a certain selec
 Tables have options for sorting and options for hidden fields for dynamic highlighting across a row based off of a value in that row. Table row highlights can factor in hidden columns in their calculations, for when there are values that you'd prefer not to show but are still vital in making calculations.
 
 Crosstabs always do grouping and summarization. When creating a crosstab, you select dimensions for row grouping, select dimensions for column groupings, and select the aggregation methods for the measures you choose.
-The question of crosstab or table is a question of do I want to display detail level transactions or summarizations/
+
+Whether you want a crosstab or sa table is a question of whether you want to display detail level transactions or summarizations.
 
 the format of outer grouping > inner grouping > calculated values with default behavior of merged cells, if these defaults are not desirable than go with freehand table
 freehand table enables you to control the way a grouping cell does merging
