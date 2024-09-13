@@ -48,7 +48,7 @@ Both tables and crosstabs can include hyperlinks to other dashboards, or to web 
 
 Both allow highlighting with data driven formatting.
 
-on a detail table you have the option to highlight across the entire row, in a crosstab individual cells are highlighted since they are distince aggregates
+On a detail table you have the option to highlight across the entire row, in a crosstab individual cells are highlighted since they are distince aggregates
 on a crosstab you cannot utilize a hidden column to calculate highlights, as you can on a detail table
 fundamentally its grouping and sum vs detail
 hybrid approach with freehand table
