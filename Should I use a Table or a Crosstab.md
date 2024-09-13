@@ -31,7 +31,8 @@ A freehand table enables you to control whether duplicate column and row headers
 
 If data is very pre aggregated at the data worksheet level, then there will not be very much aggregation happening in the crosstab.
 
-but in a crosstab can use show details, multiselecting desired cells and selecting show details displaying rows that make up the selected aggregates
+There are other options besides a table to show detail level rows. When viewing a crosstab, users can utilize the show details feature, multiselecting desired cells and clickingshow details in the popup menu commands to  display all rows that make up the selected aggregates.
+
 no show details on detail table as there is no further level of data to drill down into
 so a crosstab still has drilldown options to see detail level
 table is selected column headers and table style, with the option to export rows
