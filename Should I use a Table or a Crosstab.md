@@ -42,7 +42,7 @@ A crostab's default behavior is to merge  duplicate cells into  row and column h
 Crosstabs can include subtotals and grand totals, including subtotals for individual columns and grand total columns or rows.
 
 
-this is not an option in a detail table (but you could make a freehand table with detail and totals, freehand table can add summary row and detail row) 
+Totals are not an option in a detail table, but once again you can use a freehand table which includes detail level data and totals. Freehand tables can include both summary and detail rows. (but you could make a freehand table with detail and totals, freehand table can add summary row and detail row) 
 both tables support hyperlinks to other dashboards, to web pages,
 both allow highlighting with data driven formatting
 on a detail table you have the option to highlight across the entire row, in a crosstab individual cells are highlighted since they are distince aggregates
