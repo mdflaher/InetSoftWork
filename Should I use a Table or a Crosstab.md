@@ -33,9 +33,8 @@ If data is very pre aggregated at the data worksheet level, then there will not 
 
 There are other options besides a table to show detail level rows. When viewing a crosstab, users can utilize the show details feature, multiselecting desired cells and clicking 'Show Details' in the popup menu commands to  display all rows that make up the selected aggregates.
 
-You cannot perform the 'Show Details' function on a detail level table as the table is already displaying the most granular level of data that is available on the dashboard level.
+You cannot perform the 'Show Details' function on a detail level table as the table is already displaying the most granular level of data that is available on the dashboard level. So a crosstab still has drilldown options to see detail level.
 
-so a crosstab still has drilldown options to see detail level
 table is selected column headers and table style, with the option to export rows
 crostab default behavior is merging duplicate cells in row and column headers
 with crosstabs you can introduce subtotals and grand totals, including subtotals for 
