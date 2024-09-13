@@ -17,9 +17,10 @@ Switching to a crosstab results in the reccomender choosing a pivot style table 
 with horizontal and vertical groupings along row and column headers, with calculated values populated throughout.
 
 Crosstabs are for those who want to display data in summarized way, for when detail level data is left available at the dashboard level.
-Tableds are for detail level transactional data. A table presents a certain selected set of columns in a certain order, with no grouping or summarization, data only limited by filters.
+Tables are for detail level transactional data. A table presents a certain selected set of columns in a certain order, with no grouping or summarization, data only limited by filters.
 
-options for sorting , options for hidden fields for dynamic highlighting, across a row based off of a value in that row, may involve a value that would prefer to not be shown but 
+Tables have options for sorting and options for hidden fields for dynamic highlighting across a row based off of a value in that row. Table row highlights can factor in hidden columns in their calculations, for when there are values that you'd prefer not to show but are still vital in making calculations.
+
 crosstab always doing grouping and summarization
 select dimensions for row grouping, selecting dimensions for column groupings, and what aggregates?
 question of do i want detailed transactions or summarization
