@@ -25,10 +25,9 @@ Crosstabs always do grouping and summarization. When creating a crosstab, you se
 
 Whether you want a crosstab or sa table is a question of whether you want to display detail level transactions or summarizations.
 
-Crosstabs follow a format of outer grouping followed by inner grouping  followed by calculated values.  with duplicate dimension headers being merged into larger labels. If these default settings are unsatisfactory but you still want to group and aggregate data in a table format, you can display the same kinds of aggregates using a freehand table, but with much greater flexibility when it comes to formatting and layout.
+Crosstabs follow a format of outer grouping followed by inner grouping  followed by calculated values,  with duplicate dimension headers being merged into larger labels. If these default settings are unsatisfactory but you still want to group and aggregate data in a table format, you can display the same kinds of aggregates using a freehand table, but with much greater flexibility when it comes to formatting and layout. (See document titled "How to Recreate an Excel Report with InetSoft" for instructions on freehand tables.)
 
-freehand table enables you to control the way a grouping cell does merging
-detail level can also be mixed in to a freehand table, giving you the flexibility of both
+A freehand table enables you to control whether duplicate column and row headers get merged together or stay apart. Freehand tables also allow you to display detail level data alongside agregates, giving you the best of both worlds. 
 if data is very pre aggregated at worksheet level then not much aggregation will be happening in the crosstab
 but in a crosstab can use show details, multiselecting desired cells and selecting show details displaying rows that make up the selected aggregates
 no show details on detail table as there is no further level of data to drill down into
