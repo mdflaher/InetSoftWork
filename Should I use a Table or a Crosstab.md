@@ -1,4 +1,4 @@
-# Should I use a table or a crosstab?
+r# Should I use a table or a crosstab?
 
  You can begin your search for the ideal chart oubput by making a note of what our product would assume by using InetSoft's Visualization Reccomender. This is the option that first appears when you create a dashboard. It selects an ideal dashboard output option based on which columns from the dataset are selected. 
  
@@ -39,8 +39,10 @@ A table consists of detail rows containing cells pertaining to selected column h
 
 A crostab's default behavior is to merge  duplicate cells into  row and column headers.
 
-with crosstabs you can introduce subtotals and grand totals, including subtotals for 
-entire grand total column or row, this is not an option in a detail table (but you could make a freehand table with detail and totals, freehand table can add summary row and detail row) 
+Crosstabs can include subtotals and grand totals, including subtotals for individual columns and grand total columns or rows.
+
+
+this is not an option in a detail table (but you could make a freehand table with detail and totals, freehand table can add summary row and detail row) 
 both tables support hyperlinks to other dashboards, to web pages,
 both allow highlighting with data driven formatting
 on a detail table you have the option to highlight across the entire row, in a crosstab individual cells are highlighted since they are distince aggregates
