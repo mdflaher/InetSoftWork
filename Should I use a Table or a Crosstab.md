@@ -48,21 +48,21 @@ Both tables and crosstabs can include hyperlinks to other dashboards, or to web 
 
 Both allow highlighting with data driven formatting.
 
-On a detail table you have the option to highlight across the entire row, in a crosstab individual cells are highlighted since they are distince aggregates
-on a crosstab you cannot utilize a hidden column to calculate highlights, as you can on a detail table
-fundamentally its grouping and sum vs detail
-hybrid approach with freehand table
-can always convert  either to freehand table to try and meet your needs
-database writeback? could be done with detail table
-use crosstab when they want data to be grouped and summarized or aggregated in any way
-use detail table  to maintain data at detail level that is available at the dashboard level, detail level is maintained as an organized set of rows and columns
-show details feature can be used in liew of detail table
-some will use a detail table with flyover, using a chart or crosstab displaying aggregates and having the detail table display detail rows of the aggregate moused over "permanent show details filtered by a chart"
-can also do a data tip view, to have detail table appear over data point aggregate instead oftaking up space in the dashboard
-using either can export easily
-detail table "what you see is what you get"
-crosstab supports date comparisons, detail table does not
-how important is detail data? detail table guarantees that detail data will be available upon export
+On a detail table you have the option to highlight across the entire row, whereas in a crosstab individual cells are highlighted, as they are distince aggregates
+On a crosstab you cannot utilize a hidden column to calculate highlights, as you can on a detail table.
+
+The question of crosstab vs table is fundamentally a question of grouping and summation vs details. Freehand tables offer the option of a hybrid approach. Moreover, both table and crosstabs can be converted to freehand tables, so feel free to start with the one you think might meet your needs.
+
+Crosstabs are for when you want data to be grouped and summarized or aggregated in any way.
+Tables maintain data at the level of detail made available by the data worksheet.
+Use a detail table  to maintain data at detail level that is available at the dashboard level, the detail level is maintained as an organized set of rows and columns
+However the 'Show Details' feature can be used in liew of detail table.
+Some will use a detail table with flyover, using a chart or crosstab displaying aggregates and having the detail table display detail rows of the aggregate moused over "permanent show details filtered by a chart"
+They can also do a data tip view, to have a detail table appear over a data point aggregate instead of taking up space in the dashboard
+Either option exports easily.
+With a detail table,  "what you see is what you get".
+A crosstab supports date comparisons, while a detail level table does not.
+The question is, how important is detail level data to your end users? A detail level table guarantees that detail data will be available in the dashboard's exported form.
 crosstab will not give axxess to detail data when its exported, just the aggregates it displays
 detail table useful for data grabs
 detail table for displaying transactional da with data driven highlights or for use with flyover
