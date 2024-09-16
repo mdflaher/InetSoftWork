@@ -36,18 +36,28 @@ Tables maintain data at the level of detail made available by the data worksheet
 Use a detail table  to maintain data at detail level that is available at the dashboard level, the detail level is maintained as an organized set of rows and columns
 
 If data is very pre aggregated at the data worksheet level, then there will not be very much aggregation happening in the crosstab.
-DIFFERENT WAYS TO USE A DETAIL TABLE
-ALTERNATIVES TO DETAIL LEVEL TABLE
 
+With a detail table,  "what you see is what you get".
+
+The question is, how important is detail level data to your end users? A detail level table guarantees that detail data will be available in the dashboard's exported form.
+DIFFERENT WAYS TO USE A DETAIL TABLE
+Some will use a detail table with flyover, using a chart or crosstab displaying aggregates and having the detail table display detail rows of the aggregate moused over "permanent show details filtered by a chart"
+They can also do a data tip view, to have a detail table appear over a data point aggregate instead of taking up space in the dashboard
+Either option exports easily.
+ALTERNATIVES TO DETAIL LEVEL TABLE
+However the 'Show Details' feature can be used in liew of detail table.
 
 There are other options besides a table to show detail level rows. When viewing a crosstab, users can utilize the show details feature, multiselecting desired cells and clicking 'Show Details' in the popup menu commands to  display all rows that make up the selected aggregates.
 
+While a 'Show Details' function can be peformed on a crosstab, once the crosstab is exported, access to detail level data is lost, only the displayed aggregates are available.
  
 
 WHAT FEATURES ARE UNIQUE IN A CROSSTAB
 You cannot perform the 'Show Details' function on a detail level table as the table is already displaying the most granular level of data that is available on the dashboard level. So a crosstab still has drilldown options to see detail level.
 
 Totals are not an option in a detail table, but once again you can use a freehand table which includes detail level data and totals. Freehand tables can include both summary and detail rows.
+
+A crosstab supports date comparisons, while a detail level table does not.
 WHAT FEATURES ARE UNIQUE IN A TABLE
 table ensures that detail level data is available in a dashboard export
 
@@ -97,15 +107,11 @@ The question of crosstab vs table is fundamentally a question of grouping and su
 
 
 
-However the 'Show Details' feature can be used in liew of detail table.
-Some will use a detail table with flyover, using a chart or crosstab displaying aggregates and having the detail table display detail rows of the aggregate moused over "permanent show details filtered by a chart"
-They can also do a data tip view, to have a detail table appear over a data point aggregate instead of taking up space in the dashboard
-Either option exports easily.
-With a detail table,  "what you see is what you get".
-A crosstab supports date comparisons, while a detail level table does not.
-The question is, how important is detail level data to your end users? A detail level table guarantees that detail data will be available in the dashboard's exported form.
 
-While a 'Show Details' function can be peformed on a crosstab, once the crosstab is exported, access to detail level data is lost, only the displayed aggregates are available.
+
+
+
+
 
 For this reason a detail level table is useful for data grabs.
 A detail level table is for displaying transactional data with data driven highlights or it can be used as a flyover.
