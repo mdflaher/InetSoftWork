@@ -10,6 +10,9 @@ Once you get to three or more dimensions the reccomender often starts reccomendi
 Switching to a crosstab results in the reccomender choosing a pivot style table based on fields selected and the order they were added, 
 with horizontal and vertical groupings along row and column headers, with calculated values populated throughout.
 
+
+
+
 WHAT A TABLE DOES VS WHAT A CROSSTAB DOES
 
 Should I use a table or a crosstab? This depends on whether you want to display row level data or display grouped and summarized data.
@@ -28,8 +31,14 @@ Whether you want a crosstab or a table is a question of whether you want to disp
 
 A table consists of detail rows containing cells pertaining to selected column headers and table style, with the option to export rows.
 
+
+
+
 WHEN IS A CROSSTAB USEFUL?
 Crosstabs are for when you want data to be grouped and summarized or aggregated in any way.
+
+
+
 WHEN IS A TABLE USEFUL?
 Tables maintain data at the level of detail made available by the data worksheet. If you already have grouping and aggregation built into the data source or the worksheet, a detail table may not be so detailed.
 
@@ -40,12 +49,20 @@ If data is very pre aggregated at the data worksheet level, then there will not 
 With a detail table,  "what you see is what you get".
 
 The question is, how important is detail level data to your end users? A detail level table guarantees that detail data will be available in the dashboard's exported form.
+
+
+
+
 DIFFERENT WAYS TO USE A DETAIL TABLE
 Some will use a detail table with flyover, using a chart or crosstab displaying aggregates and having the detail table display detail rows of the aggregate moused over "permanent show details filtered by a chart"
 A detail level table is for displaying transactional data with data driven highlights or it can be used as a flyover.
 A detail table can even be hidden behind a chart to provide raw data for export only. It can also be placed in a tab behind a chart for a quick drilldown option.
 They can also do a data tip view, to have a detail table appear over a data point aggregate instead of taking up space in the dashboard
 Either option exports easily.
+
+
+
+
 ALTERNATIVES TO DETAIL LEVEL TABLE
 However the 'Show Details' feature can be used in liew of detail table.
 
@@ -54,12 +71,20 @@ There are other options besides a table to show detail level rows. When viewing 
 While a 'Show Details' function can be peformed on a crosstab, once the crosstab is exported, access to detail level data is lost, only the displayed aggregates are available.
  
 
+
+
+
 WHAT FEATURES ARE UNIQUE IN A CROSSTAB
 You cannot perform the 'Show Details' function on a detail level table as the table is already displaying the most granular level of data that is available on the dashboard level. So a crosstab still has drilldown options to see detail level.
 
 Totals are not an option in a detail table, but once again you can use a freehand table which includes detail level data and totals. Freehand tables can include both summary and detail rows.
 
 A crosstab supports date comparisons, while a detail level table does not.
+
+
+
+
+
 WHAT FEATURES ARE UNIQUE IN A TABLE
 table ensures that detail level data is available in a dashboard export
 For this reason a detail level table is useful for data grabs.
@@ -68,11 +93,19 @@ Tables have options for sorting and options for hidden fields for dynamic highli
 On a crosstab you cannot utilize a hidden column to calculate highlights, as you can on a detail table.
 On a detail table you have the option to highlight across the entire row, whereas in a crosstab individual cells are highlighted, as they are distince aggregates
 
+
+
+
+
 WHAT FEATURS DO THEY SHARE?
 
 Both tables and crosstabs can include hyperlinks to other dashboards, or to web pages.
 
 Both allow highlighting with data driven formatting.
+
+
+
+
 
 FOR BEST OF BOTH WORLDS USE FREEHAND TABLE
 Crosstabs follow a format of outer grouping followed by inner grouping  followed by calculated values,  with duplicate dimension headers being merged into larger labels. If these default settings are unsatisfactory but you still want to group and aggregate data in a table format, you can display the same kinds of aggregates using a freehand table, but with much greater flexibility when it comes to formatting and layout. (See document titled "How to Recreate an Excel Report with InetSoft" for instructions on freehand tables.)
