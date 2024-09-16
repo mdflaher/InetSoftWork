@@ -31,7 +31,7 @@ A table consists of detail rows containing cells pertaining to selected column h
 WHEN IS A CROSSTAB USEFUL?
 Crosstabs are for when you want data to be grouped and summarized or aggregated in any way.
 WHEN IS A TABLE USEFUL?
-Tables maintain data at the level of detail made available by the data worksheet.
+Tables maintain data at the level of detail made available by the data worksheet. If you already have grouping and aggregation built into the data source or the worksheet, a detail table may not be so detailed.
 
 Use a detail table  to maintain data at detail level that is available at the dashboard level, the detail level is maintained as an organized set of rows and columns
 
@@ -42,6 +42,8 @@ With a detail table,  "what you see is what you get".
 The question is, how important is detail level data to your end users? A detail level table guarantees that detail data will be available in the dashboard's exported form.
 DIFFERENT WAYS TO USE A DETAIL TABLE
 Some will use a detail table with flyover, using a chart or crosstab displaying aggregates and having the detail table display detail rows of the aggregate moused over "permanent show details filtered by a chart"
+A detail level table is for displaying transactional data with data driven highlights or it can be used as a flyover.
+A detail table can even be hidden behind a chart to provide raw data for export only. It can also be placed in a tab behind a chart for a quick drilldown option.
 They can also do a data tip view, to have a detail table appear over a data point aggregate instead of taking up space in the dashboard
 Either option exports easily.
 ALTERNATIVES TO DETAIL LEVEL TABLE
@@ -60,7 +62,7 @@ Totals are not an option in a detail table, but once again you can use a freehan
 A crosstab supports date comparisons, while a detail level table does not.
 WHAT FEATURES ARE UNIQUE IN A TABLE
 table ensures that detail level data is available in a dashboard export
-
+For this reason a detail level table is useful for data grabs.
 Tables have options for sorting and options for hidden fields for dynamic highlighting across a row based off of a value in that row. Table row highlights can factor in hidden columns in their calculations, for when there are values that you'd prefer not to show but are still vital in making calculations.
 
 On a crosstab you cannot utilize a hidden column to calculate highlights, as you can on a detail table.
@@ -79,7 +81,7 @@ A freehand table enables you to control whether duplicate column and row headers
 
 
 
-
+With the flexibility of freehand tables, many aggregations done at the data level to be unnecessary.
 
 
 
@@ -109,12 +111,11 @@ The question of crosstab vs table is fundamentally a question of grouping and su
 
 
 
+ 
 
 
 
 
-For this reason a detail level table is useful for data grabs.
-A detail level table is for displaying transactional data with data driven highlights or it can be used as a flyover.
-A detail table can even be hidden behind a chart to provide raw data for export only. It can also be placed in a tab behind a chart for a quick drilldown option.
-If you already have grouping and aggregation built into the data source or the worksheet, a detail table may not be so detailed.  
-With the flexibility of freehand tables, many aggregations done at the data level to be unnecessary.
+
+ 
+
