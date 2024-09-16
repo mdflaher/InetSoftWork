@@ -7,8 +7,12 @@ GETTING IDEAS BY USING THE VISUALIZATION RECCOMENDER
  Using the reccomender wizard can help you get an idea for how to display your data. What method of displaying data does the product assume? this will vary based on whether dimensions or measures are chosen and how many of each.
 
 Once you get to three or more dimensions the reccomender often starts reccomending a flat detail level table, as that is the common use case for several dimensions with no measures, since without measures there can't be aggregation. Adding a measure from there switches back to a chart as it assumes an aggregated measure.
+Switching to a crosstab results in the reccomender choosing a pivot style table based on fields selected and the order they were added, 
+with horizontal and vertical groupings along row and column headers, with calculated values populated throughout.
 
 WHAT A TABLE DOES VS WHAT A CROSSTAB DOES
+
+
 WHEN IS A CROSSTAB USEFUL?
 WHEN IS A TABLE USEFUL?
 DIFFERENT WAYS TO USE A DETAIL TABLE
@@ -31,8 +35,7 @@ Should I use a table or a crosstab? This depends on whether you want to display 
 
 A simple flat tables does not aggregate metrics; it simply displays individual detail level rows of the columns selected, limited by dashboard filters.
 
-Switching to a crosstab results in the reccomender choosing a pivot style table based on fields selected and the order they were added, 
-with horizontal and vertical groupings along row and column headers, with calculated values populated throughout.
+
 
 Crosstabs are for those who want to display data in summarized way, for when detail level data is left available at the dashboard level.
 Tables are for detail level transactional data. A table presents a certain selected set of columns in a certain order, with no grouping or summarization, data only limited by filters.
