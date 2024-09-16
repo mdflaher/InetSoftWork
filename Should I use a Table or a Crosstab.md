@@ -63,7 +63,9 @@ Either option exports easily.
 With a detail table,  "what you see is what you get".
 A crosstab supports date comparisons, while a detail level table does not.
 The question is, how important is detail level data to your end users? A detail level table guarantees that detail data will be available in the dashboard's exported form.
-crosstab will not give axxess to detail data when its exported, just the aggregates it displays
+
+While a 'Show Details' function can be peformed on a crosstab, once the crosstab is exported, access to detail level data is lost, only the displayed aggregates are available.
+
 detail table useful for data grabs
 detail table for displaying transactional da with data driven highlights or for use with flyover
 detail table can even be hidden behind a chart to provide raw data for export only or secondary tab from high level dashboard
