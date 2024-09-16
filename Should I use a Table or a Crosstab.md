@@ -66,8 +66,8 @@ The question is, how important is detail level data to your end users? A detail 
 
 While a 'Show Details' function can be peformed on a crosstab, once the crosstab is exported, access to detail level data is lost, only the displayed aggregates are available.
 
-detail table useful for data grabs
-detail table for displaying transactional da with data driven highlights or for use with flyover
-detail table can even be hidden behind a chart to provide raw data for export only or secondary tab from high level dashboard
-if you already have grouping and aggregation built into the data source or the worksheet, a detail table may not be so detailed.  
-options for freehand tables make many aggregations done at the data level to be unnecessary
+For this reason a detail level table is useful for data grabs.
+A detail level table is for displaying transactional data with data driven highlights or it can be used as a flyover.
+A detail table can even be hidden behind a chart to provide raw data for export only. It can also be placed in a tab behind a chart for a quick drilldown option.
+If you already have grouping and aggregation built into the data source or the worksheet, a detail table may not be so detailed.  
+With the flexibility of freehand tables, many aggregations done at the data level to be unnecessary.
