@@ -1,3 +1,17 @@
+GETTING IDEAS BY USING THE VISUALIZATION RECCOMENDER
+WHAT A TABLE DOES VS WHAT A CROSSTAB DOES
+WHEN IS A CROSSTAB USEFUL?
+WHEN IS A TABLE USEFUL?
+DIFFERENT WAYS TO USE A DETAIL TABLE
+ALTERNATIVE FEATURES TO DETAIL LEVEL TABLE
+WHAT FEATURES ARE UNIQUE IN A CROSSTAB
+WHAT FEATURES ARE UNIQUE IN A TABLE
+WHAT FEATURS DO THEY SHARE?
+FOR BEST OF BOTH WORLDS USE FREEHAND TABLE
+
+
+
+
 r# Should I use a table or a crosstab?
 
  You can begin your search for the ideal chart oubput by making a note of what our product would assume by using InetSoft's Visualization Reccomender. This is the option that first appears when you create a dashboard. It selects an ideal dashboard output option based on which columns from the dataset are selected. 
