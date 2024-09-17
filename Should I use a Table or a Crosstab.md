@@ -1,7 +1,7 @@
 Should I use a table or a crosstab? This depends on whether you want to display row level data or display grouped and summarized data.
 
 
-[Tables](#able)
+[Tables](#table)
 
 [Crosstabs](#cross)
 
