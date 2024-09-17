@@ -42,11 +42,13 @@ Crosstabs are for those who want to display data in summarized way, for when det
 # Using the Visualization Recommender for ideas <a name="recommend"></a>
 
 If you're not sure what dashboard element you want, you can begin your search for the ideal oubput by using InetSoft's Visualization Reccomender. This is the option that first appears when you create a dashboard. It selects an ideal dashboard output option based on which columns from the dataset are selected. 
+
  ![](screenshots/recommender1.PNG)
 
  Using the reccomender wizard can help you get an idea for how to display your data. What method of displaying data does the product assume? This will vary based on whether dimensions or measures are chosen and how many of each.
  
  The first thing that the Recommender considers is whether or not you're working with a dimension versus a measure. Selecting a dimension automatically results in a chart. So if you're just grabbing a simple text phrased field, it's going to automatically do a word chart. 
+ 
  ![](screenshots/select-product-category.PNG)
  
  However, If you start introducing additional dimensions, once you get to three or more the reccomender starts reccomending a flat detail level table, as that is the common use case for several dimensions with no measures. Without measures there can't be aggregation.
@@ -59,6 +61,7 @@ Adding a measure causes the Recommender to switch back to a chart, as it assumes
 
 You can manually switch output types by clicking one of the icons above the displayed data. Switching to a crosstab results in the Reccomender choosing a pivot style table based on fields selected and the order they were added, 
 with horizontal and vertical groupings along row and column headers, and calculated values populated throughout.
+
 ![](screenshots/switch-to-crosstab.PNG)
 
 
@@ -83,9 +86,11 @@ You can use a detail table with flyover enabled, using a chart or crosstab displ
 ![](screenshots/flyover-table.PNG)
 
 You can also use a table for a data tip view, to have a detail table appear over a data point aggregate instead of taking up space in the dashboard. To make a table a data tip, select 'Chart Properties', select 'Data Tip View' and select the table in the dropdown menu.
+
 ![](screenshots/table-tooltip.PNG)
 
 The table now only appears when a data point in the chart is moused over, displaying detail level data for that data point only.
+
 ![](screenshots/table-tooltip-result.PNG)
 
 
