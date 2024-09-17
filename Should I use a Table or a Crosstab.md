@@ -20,8 +20,6 @@ A table consists of detail rows containing cells pertaining to selected column h
 
 Crosstabs are for those who want to display data in summarized way, for when detail level data is left available at the dashboard level. Crosstabs always do grouping and summarization. When creating a crosstab, you select dimensions for row grouping, select dimensions for column groupings, and select the aggregation methods for the measures you choose.A crostab's default behavior is to merge  duplicate cells into  row and column headers.
 
-Crosstabs can include subtotals and grand totals, including subtotals for individual columns and grand total columns or rows.
-Tables are for detail level transactional data.
 
 GETTING IDEAS BY USING THE VISUALIZATION RECCOMENDER
 
@@ -96,8 +94,8 @@ Totals are not an option in a detail table, but once again you can use a freehan
 
 A crosstab supports date comparisons, while a detail level table does not.
 
-
-
+Crosstabs can include subtotals and grand totals, including subtotals for individual columns and grand total columns or rows.
+Tables are for detail level transactional data.
 
 
 WHAT FEATURES ARE UNIQUE IN A TABLE
