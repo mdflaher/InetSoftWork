@@ -25,7 +25,7 @@ Should I use a table or a crosstab? This depends on whether you want to display 
 
 [Summary](#sum)
 
-## Tables <a name="table"></a>
+# Tables <a name="table"></a>
 
  ![](screenshots/detail-level-table.PNG)
  
@@ -33,7 +33,7 @@ A simple flat tables does not aggregate metrics; it simply displays individual d
 A table presents a certain selected set of columns in a certain order, with no grouping or summarization, data only limited by filters.
 A table consists of detail rows containing cells pertaining to selected column headers and table style, with the option to export rows.
 
-## Crosstabs <a name="cross"></a>
+# Crosstabs <a name="cross"></a>
 
 ![](screenshots/resize-crosstab.PNG)
 
