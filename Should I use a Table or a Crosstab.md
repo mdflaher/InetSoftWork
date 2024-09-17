@@ -46,14 +46,16 @@ with horizontal and vertical groupings along row and column headers, with calcul
 ![](screenshots/switch-to-crosstab.PNG)
 
 
-WHEN DO I NEED A TABLE?
+# When should I use a table?
+
 Tables maintain data at the level of detail made available by the data worksheet. If you already have grouping and aggregation built into the data source or the worksheet, a detail table may not be so detailed.
 
 Use a detail table  to maintain data at detail level that is available at the dashboard level, the detail level is maintained as an organized set of rows and columns
 
 If data is very pre aggregated at the data worksheet level, then there will not be very much aggregation happening in the crosstab.
 
-WHEN DO I NEED A CROSSTAB?
+# When should I use a crosstab?
+
 Crosstabs are for when you want data to be grouped and summarized or aggregated in numerical form. They provide a potentially more detailed alternative to charts, with the potential to display many more aggregates broken down by a greater number of dimension than a chart. They are good for use cases where displaying exact humerical aggregates is vital to the dashboard display, such as when data aggregates are very close to each other numerically.
 
 
@@ -66,7 +68,8 @@ The question is, how important is detail level data to your end users? A detail 
 
 
 
-DIFFERENT WAYS TO USE A DETAIL TABLE
+# Different uses for a table
+
 Some will use a detail table with flyover, using a chart or crosstab displaying aggregates and having the detail table display detail rows of the aggregate moused over "permanent show details filtered by a chart"
 A detail level table is for displaying transactional data with data driven highlights or it can be used as a flyover.
 A detail table can even be hidden behind a chart to provide raw data for export only. It can also be placed in a tab behind a chart for a quick drilldown option.
@@ -76,7 +79,8 @@ Either option exports easily.
 
 
 
-ALTERNATIVES TO DETAIL LEVEL TABLE
+# Alternatives to a table
+
 However the 'Show Details' feature can be used in liew of detail table.
 
 There are other options besides a table to show detail level rows. When viewing a crosstab, users can utilize the show details feature, multiselecting desired cells and clicking 'Show Details' in the popup menu commands to  display all rows that make up the selected aggregates.
@@ -87,7 +91,8 @@ While a 'Show Details' function can be peformed on a crosstab, once the crosstab
 
 
 
-WHAT FEATURES ARE UNIQUE IN A CROSSTAB
+# What features are unique to a crosstab?
+
 You cannot perform the 'Show Details' function on a detail level table as the table is already displaying the most granular level of data that is available on the dashboard level. So a crosstab still has drilldown options to see detail level.
 
 Totals are not an option in a detail table, but once again you can use a freehand table which includes detail level data and totals. Freehand tables can include both summary and detail rows.
@@ -98,7 +103,8 @@ Crosstabs can include subtotals and grand totals, including subtotals for indivi
 Tables are for detail level transactional data.
 
 
-WHAT FEATURES ARE UNIQUE IN A TABLE
+# What Features are unique to a table?
+
 table ensures that detail level data is available in a dashboard export
 For this reason a detail level table is useful for data grabs.
 Tables have options for sorting and options for hidden fields for dynamic highlighting across a row based off of a value in that row. Table row highlights can factor in hidden columns in their calculations, for when there are values that you'd prefer not to show but are still vital in making calculations.
@@ -110,7 +116,7 @@ On a detail table you have the option to highlight across the entire row, wherea
 
 
 
-WHAT FEATURS DO THEY SHARE?
+# What features do they have in common?
 
 Both tables and crosstabs can include hyperlinks to other dashboards, or to web pages.
 
@@ -120,7 +126,8 @@ Both allow highlighting with data driven formatting.
 
 
 
-FOR BEST OF BOTH WORLDS USE FREEHAND TABLE
+# Getting the best of both worlds with a freehand table
+
 Crosstabs follow a format of outer grouping followed by inner grouping  followed by calculated values,  with duplicate dimension headers being merged into larger labels. If these default settings are unsatisfactory but you still want to group and aggregate data in a table format, you can display the same kinds of aggregates using a freehand table, but with much greater flexibility when it comes to formatting and layout. (See document titled "How to Recreate an Excel Report with InetSoft" for instructions on freehand tables.)
 
 A freehand table enables you to control whether duplicate column and row headers get merged together or stay apart. Freehand tables also allow you to display detail level data alongside agregates, giving you the best of both worlds. 
@@ -146,7 +153,8 @@ With the flexibility of freehand tables, many aggregations done at the data leve
 
 
 
-CONCLUSION
+# Summary
+
 The question of crosstab vs table is fundamentally a question of grouping and summation vs details. Freehand tables offer the option of a hybrid approach. Moreover, both table and crosstabs can be converted to freehand tables, so feel free to start with the one you think might meet your needs.
 
 
