@@ -14,6 +14,10 @@ A simple flat tables does not aggregate metrics; it simply displays individual d
 A table presents a certain selected set of columns in a certain order, with no grouping or summarization, data only limited by filters.
 A table consists of detail rows containing cells pertaining to selected column headers and table style, with the option to export rows.
 
+##Crosstabs
+
+![](screenshots/resize-crosstab.PNG)
+
 Crosstabs are for those who want to display data in summarized way, for when detail level data is left available at the dashboard level. Crosstabs always do grouping and summarization. When creating a crosstab, you select dimensions for row grouping, select dimensions for column groupings, and select the aggregation methods for the measures you choose.A crostab's default behavior is to merge  duplicate cells into  row and column headers.
 
 Crosstabs can include subtotals and grand totals, including subtotals for individual columns and grand total columns or rows.
