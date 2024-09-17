@@ -41,11 +41,11 @@ Crosstabs are for those who want to display data in summarized way, for when det
 
 # Using the Visualization Recommender for ideas <a name="recommend"></a>
 
-If you're not sure what dashboard element you want, you can begin your search for the ideal oubput by using InetSoft's Visualization Reccomender. This is the option that first appears when you create a dashboard. It selects an ideal dashboard output option based on which columns from the dataset are selected. 
+If you're not sure what dashboard element you want, you can begin your search for the ideal oubput by using InetSoft's Visualization Recommender. This is the option that first appears when you create a dashboard. It selects an ideal dashboard output option based on which columns from the dataset are selected. 
 
  ![](screenshots/recommender1.PNG)
 
- Using the reccomender wizard can help you get an idea for how to display your data. What method of displaying data does the product assume? This will vary based on whether dimensions or measures are chosen and how many of each.
+ Using the Recommender wizard can help you get an idea for how to display your data. What method of displaying data does the product assume? This will vary based on whether dimensions or measures are chosen and how many of each.
  
  The first thing that the Recommender considers is whether or not you're working with a dimension versus a measure. Selecting a dimension automatically results in a chart. So if you're just grabbing a simple text phrased field, it's going to automatically do a word chart. 
  
