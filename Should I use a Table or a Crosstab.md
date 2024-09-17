@@ -83,38 +83,29 @@ Some will use a detail table with flyover, using a chart or crosstab displaying 
 ![](screenshots/flyover-table.PNG)
 
 A detail level table is for displaying transactional data with data driven highlights or it can be used as a flyover.
-A detail table can even be hidden behind a chart to provide raw data for export only. It can also be placed in a tab behind a chart for a quick drilldown option.
-They can also do a data tip view, to have a detail table appear over a data point aggregate instead of taking up space in the dashboard.
+
+They can also do a data tip view, to have a detail table appear over a data point aggregate instead of taking up space in the dashboard. To make a table a data tip, select 'Chart Properties', select 'Data Tip View' and select the table in the dropdown menu.
 ![](screenshots/table-tooltip.PNG)
 
+The table now only appears when a data point in the chart is moused over, displaying detail level data for that data point only.
 ![](screenshots/table-tooltip-result.PNG)
-
-Either option exports easily.
-
-
-
-
 
 
 # Alternatives to a table <a name="alt"></a>
 
-However the 'Show Details' feature can be used in liew of detail table.
-
+There are other options besides a table to show detail level rows. When viewing a crosstab, users can utilize the 'Show Details' feature, multiselecting desired cells and clicking 'Show Details' in the popup menu commands to  display all rows that make up the selected aggregates.
 ![](screenshots/multi-select-cells.PNG)
+
+This results in a popup window full of detail level data for the selected cells, with a button to download the detail level data.
 
 ![](screenshots/show-details.PNG)
 
-There are other options besides a table to show detail level rows. When viewing a crosstab, users can utilize the show details feature, multiselecting desired cells and clicking 'Show Details' in the popup menu commands to  display all rows that make up the selected aggregates.
 
-While a 'Show Details' function can be peformed on a crosstab, once the crosstab is exported, access to detail level data is lost, only the displayed aggregates are available.
+While a 'Show Details' function can be peformed on a crosstab in a live dashboard, once the crosstab is exported, access to detail level data is lost, only the displayed aggregates are available.
  
 
 
-
-
-
-
-# Wha features are unique to a table? <a name="table4"></a>
+# What features are unique to a table? <a name="table4"></a>
 
 table ensures that detail level data is available in a dashboard export
 For this reason a detail level table is useful for data grabs.
