@@ -30,30 +30,26 @@ Should I use a table or a crosstab? This depends on whether you want to display 
 
  ![](screenshots/detail-level-table.PNG)
  
-A simple flat tables does not aggregate metrics; it simply displays individual detail level rows of the columns selected, limited by dashboard filters.
-A table presents a certain selected set of columns in a certain order, with no grouping or summarization, data only limited by filters.
-A table consists of detail rows containing cells pertaining to selected column headers and table style, with the option to export rows.
+A simple flat table does not aggregate metrics; it simply displays individual detail level rows of the columns selected, limited only by dashboard filters. A table consists of detail rows containing cells pertaining to selected column headers and table style, with the option to export rows.
 
 # Crosstabs <a name="cross"></a>
 
 ![](screenshots/resize-crosstab.PNG)
 
-Crosstabs are for those who want to display data in summarized way, for when detail level data is left available at the dashboard level. Crosstabs always do grouping and summarization. When creating a crosstab, you select dimensions for row grouping, select dimensions for column groupings, and select the aggregation methods for the measures you choose.A crostab's default behavior is to merge  duplicate cells into  row and column headers.
+Crosstabs are for those who want to display data in summarized way, for when detail level data is left available at the dashboard level. Crosstabs always do grouping and summarization. When creating a crosstab, you select dimensions for row grouping, select dimensions for column groupings, and select the aggregation methods for the measures you choose. A crostab's default behavior is to merge  duplicate cells into  row and column headers.
 
 
 # Using the Visualization Recommender for ideas <a name="recommend"></a>
 
- You can begin your search for the ideal chart oubput by making a note of what our product would assume by using InetSoft's Visualization Reccomender. This is the option that first appears when you create a dashboard. It selects an ideal dashboard output option based on which columns from the dataset are selected. 
+If you're not sure what dashboard element you want, you can begin your search for the ideal oubput by using InetSoft's Visualization Reccomender. This is the option that first appears when you create a dashboard. It selects an ideal dashboard output option based on which columns from the dataset are selected. 
  ![](screenshots/recommender1.PNG)
 
-  Using the reccomender wizard can help you get an idea for how to display your data. What method of displaying data does the product assume? this will vary based on whether dimensions or measures are chosen and how many of each.
+ Using the reccomender wizard can help you get an idea for how to display your data. What method of displaying data does the product assume? This will vary based on whether dimensions or measures are chosen and how many of each.
  
- The first thing that the wizard Recommender considers is whether or not you're working with a dimension versus a measure. Selecting a dimension automatically results in a chart. So if you're just grabbing a simple text phrased field, it's going to automatically do a chart. 
+ The first thing that the Recommender considers is whether or not you're working with a dimension versus a measure. Selecting a dimension automatically results in a chart. So if you're just grabbing a simple text phrased field, it's going to automatically do a chart. 
  ![](screenshots/select-product-category.PNG)
  
- However, If you start introducing additional dimensions. And you get to a third dimension it may suggest a crosstab table.
-
-Once you get to three or more dimensions the reccomender often starts reccomending a flat detail level table, as that is the common use case for several dimensions with no measures, since without measures there can't be aggregation.
+ However, If you start introducing additional dimensions. Once you get to three or more dimensions the reccomender often starts reccomending a flat detail level table, as that is the common use case for several dimensions with no measures, as without measures there can't be aggregation.
 
  ![](screenshots/add-product-name.PNG)
  
@@ -61,35 +57,28 @@ Adding a measure from there switches back to a chart as it assumes an aggregated
 
 ![](screenshots/add-dimension.PNG)
 
-Switching to a crosstab results in the reccomender choosing a pivot style table based on fields selected and the order they were added, 
+You can manually switch output types by clicking one of the icons above the displayed data. Switching to a crosstab results in the reccomender choosing a pivot style table based on fields selected and the order they were added, 
 with horizontal and vertical groupings along row and column headers, with calculated values populated throughout.
 ![](screenshots/switch-to-crosstab.PNG)
 
 
 # When should I use a table? <a name="table2"></a>
 
-Tables maintain data at the level of detail made available by the data worksheet. If you already have grouping and aggregation built into the data source or the worksheet, a detail table may not be so detailed.
-
-Use a detail table  to maintain data at detail level that is available at the dashboard level, the detail level is maintained as an organized set of rows and columns
-
-If data is very pre aggregated at the data worksheet level, then there will not be very much aggregation happening in the crosstab.
+Tables maintain data at the level of detail made available by the data worksheet. If you already have grouping and aggregation built into the data source or the worksheet, a detail table may not be so detailed, as it may already be displaying the kind of aggregates you would use a crosstab for.
 
 With a detail table,  "what you see is what you get".
 
-The question is, how important is detail level data to your end users? A detail level table guarantees that detail data will be available in the dashboard's exported form.
+The question is, how important is detail level data to your end users? A table guarantees that detail level data will be available in the dashboard's exported form.
 
 # When should I use a crosstab? <a name="cross2"></a>
 
-Crosstabs are for when you want data to be grouped and summarized or aggregated in numerical form. They provide a potentially more detailed alternative to charts, with the potential to display many more aggregates broken down by a greater number of dimension than a chart. They are good for use cases where displaying exact humerical aggregates is vital to the dashboard display, such as when data aggregates are very close to each other numerically.
-
-
-
+Crosstabs are for when you want data to be grouped and summarized or aggregated in numerical form. They provide a potentially more detailed alternative to charts, with the capability to display many more aggregates broken down by a greater number of dimension than a chart. This are good for use cases where displaying exact humerical aggregates is vital to the dashboard display, such as when data aggregates are very close to each other numerically.
 
 
 
 # Different uses for a table <a name="table3"></a>
 
-Some will use a detail table with flyover, using a chart or crosstab displaying aggregates and having the detail table display detail rows of the aggregate moused over "permanent show details filtered by a chart"
+Some will use a detail table with flyover, using a chart or crosstab displaying aggregates and having the detail table display detail rows of the aggregate moused over data point. This is performed by right clicking on the chart, selecting 'Properties' and checking the box for the table you want to be filtered by the chart.
 
 ![](screenshots/flyover-table.PNG)
 
