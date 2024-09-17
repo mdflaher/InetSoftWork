@@ -30,7 +30,7 @@ Should I use a table or a crosstab? This depends on whether you want to display 
 
  ![](screenshots/detail-level-table.PNG)
  
-A simple flat table does not aggregate metrics; it simply displays individual detail level rows of the columns selected, limited only by dashboard filters. .
+A simple flat table does not aggregate metrics; it simply displays individual detail level rows of the columns selected, limited only by dashboard filters.
 
 # Crosstabs <a name="cross"></a>
 
