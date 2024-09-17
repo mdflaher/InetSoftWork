@@ -15,6 +15,9 @@ Once you get to three or more dimensions the reccomender often starts reccomendi
  ![](screenshots/add-product-name.PNG)
  
 Adding a measure from there switches back to a chart as it assumes an aggregated measure.
+
+![](screenshots/add-dimension.PNG)
+
 Switching to a crosstab results in the reccomender choosing a pivot style table based on fields selected and the order they were added, 
 with horizontal and vertical groupings along row and column headers, with calculated values populated throughout.
 
