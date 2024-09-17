@@ -5,7 +5,10 @@ GETTING IDEAS BY USING THE VISUALIZATION RECCOMENDER
 
   Using the reccomender wizard can help you get an idea for how to display your data. What method of displaying data does the product assume? this will vary based on whether dimensions or measures are chosen and how many of each.
  
- The first thing that the wizard Recommender considers is whether or not you're working with a dimension versus a measure. Selecting a dimension automatically results in a chart. So if you're just grabbing a simple text phrased field, it's going to automatically do a chart. However, If you start introducing additional dimensions. And you get to a third dimension it may suggest a crosstab table.
+ The first thing that the wizard Recommender considers is whether or not you're working with a dimension versus a measure. Selecting a dimension automatically results in a chart. So if you're just grabbing a simple text phrased field, it's going to automatically do a chart. 
+ ![](screenshots/select-product-category.PNG)
+ 
+ However, If you start introducing additional dimensions. And you get to a third dimension it may suggest a crosstab table.
 
 Once you get to three or more dimensions the reccomender often starts reccomending a flat detail level table, as that is the common use case for several dimensions with no measures, since without measures there can't be aggregation. Adding a measure from there switches back to a chart as it assumes an aggregated measure.
 Switching to a crosstab results in the reccomender choosing a pivot style table based on fields selected and the order they were added, 
