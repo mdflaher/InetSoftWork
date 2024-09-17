@@ -75,7 +75,7 @@ The question is, how important is detail level data to your end users? A table n
 
 # When should I use a crosstab? <a name="cross2"></a>
 
-Crosstabs are for when you want data to be grouped and summarized or aggregated in numerical form. They provide a potentially more detailed alternative to charts, with the capability to display many more aggregates broken down by a greater number of dimension than a chart. This are good for use cases where displaying exact humerical aggregates is vital to the dashboard display, such as when data aggregates are very close to each other numerically.
+Crosstabs are for when you want data to be grouped and summarized or aggregated in numerical form. They provide a potentially more detailed alternative to charts, with the capability to display many more aggregates broken down by a greater number of dimension than a chart. This is good for use cases where displaying exact humerical aggregates is vital to the dashboard display, such as when data aggregates are very close to each other numerically.
 
 
 
