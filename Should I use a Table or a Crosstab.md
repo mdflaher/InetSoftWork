@@ -112,9 +112,7 @@ Including a table in your dashboard ensures that detail level data is available 
 
 # What features are unique to a crosstab? <a name="cross3"></a>
 
-You cannot perform the 'Show Details' function on a detail level table as the table is already displaying the most granular level of data that is available on the dashboard level. So a crosstab still has drilldown options to see detail level.
-
-Totals are not an option in a detail table, but once again you can use a freehand table which includes detail level data and totals. Freehand tables can include both summary and detail rows.
+As previously mentioned, on a crosstab you can select multiple cells and use the 'Show Details' feature to see detail level data for those data points. ou cannot perform the 'Show Details' function on a detail level table as the table is already displaying the most granular level of data that is available on the dashboard level. 
 
 A crosstab supports date comparisons, while a detail level table does not.
 
@@ -129,7 +127,7 @@ Tables are for detail level transactional data.
 
 Both tables and crosstabs can include hyperlinks to other dashboards, or to web pages.
 
-Both allow highlighting with data driven formatting.
+Both allow highlighting with data driven formatting. Both can be exported either individually or as part of the entire dashboard.
 
 
 
@@ -145,40 +143,10 @@ A freehand table enables you to control whether duplicate column and row headers
 
 With the flexibility of freehand tables, many aggregations done at the data level to be unnecessary.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+For instructions on freehand table, see our doc entitled "How to Recreate an Excel Report".
 
 
 
 # Summary <a name="sum"></a>
 
-The question of crosstab vs table is fundamentally a question of grouping and summation vs details. Freehand tables offer the option of a hybrid approach. Moreover, both table and crosstabs can be converted to freehand tables, so feel free to start with the one you think might meet your needs.
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
- 
-
+The question of crosstab vs table is fundamentally a question of grouping and summation vs details. Freehand tables offer the option of a hybrid approach. Moreover, both table and crosstabs can be converted to freehand tables (select the element, right click, click 'Convert to freehand table', so feel free to start with the one you think might meet your needs.
