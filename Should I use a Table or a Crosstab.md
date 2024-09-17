@@ -107,13 +107,8 @@ While a 'Show Details' function can be peformed on a crosstab in a live dashboar
 
 # What features are unique to a table? <a name="table4"></a>
 
-table ensures that detail level data is available in a dashboard export
-For this reason a detail level table is useful for data grabs.
-Tables have options for sorting and options for hidden fields for dynamic highlighting across a row based off of a value in that row. Table row highlights can factor in hidden columns in their calculations, for when there are values that you'd prefer not to show but are still vital in making calculations.
+Including a table in your dashboard ensures that detail level data is available in a dashboard export. For this reason a detail level table is useful for data grabs. Unlike crosstabs, table row highlights can factor in hidden columns in their calculations, for when there are values that you'd prefer not to show but are still vital in making calculations.
 
-
-On a crosstab you cannot utilize a hidden column to calculate highlights, as you can on a detail table.
-On a detail table you have the option to highlight across the entire row, whereas in a crosstab individual cells are highlighted, as they are distince aggregates
 
 # What features are unique to a crosstab? <a name="cross3"></a>
 
