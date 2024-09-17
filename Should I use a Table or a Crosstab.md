@@ -1,3 +1,21 @@
+
+
+
+
+WHAT A TABLE DOES VS WHAT A CROSSTAB DOES
+
+Should I use a table or a crosstab? This depends on whether you want to display row level data or display grouped and summarized data.
+
+
+A simple flat tables does not aggregate metrics; it simply displays individual detail level rows of the columns selected, limited by dashboard filters.
+A table presents a certain selected set of columns in a certain order, with no grouping or summarization, data only limited by filters.
+A table consists of detail rows containing cells pertaining to selected column headers and table style, with the option to export rows.
+
+Crosstabs are for those who want to display data in summarized way, for when detail level data is left available at the dashboard level. Crosstabs always do grouping and summarization. When creating a crosstab, you select dimensions for row grouping, select dimensions for column groupings, and select the aggregation methods for the measures you choose.A crostab's default behavior is to merge  duplicate cells into  row and column headers.
+
+Crosstabs can include subtotals and grand totals, including subtotals for individual columns and grand total columns or rows.
+Tables are for detail level transactional data.
+
 GETTING IDEAS BY USING THE VISUALIZATION RECCOMENDER
 
  You can begin your search for the ideal chart oubput by making a note of what our product would assume by using InetSoft's Visualization Reccomender. This is the option that first appears when you create a dashboard. It selects an ideal dashboard output option based on which columns from the dataset are selected. 
@@ -23,35 +41,18 @@ with horizontal and vertical groupings along row and column headers, with calcul
 ![](screenshots/switch-to-crosstab.PNG)
 
 
-
-
-WHAT A TABLE DOES VS WHAT A CROSSTAB DOES
-
-Should I use a table or a crosstab? This depends on whether you want to display row level data or display grouped and summarized data.
-A simple flat tables does not aggregate metrics; it simply displays individual detail level rows of the columns selected, limited by dashboard filters.
-
-Crosstabs are for those who want to display data in summarized way, for when detail level data is left available at the dashboard level. Crosstabs always do grouping and summarization. When creating a crosstab, you select dimensions for row grouping, select dimensions for column groupings, and select the aggregation methods for the measures you choose.
-Tables are for detail level transactional data. A table presents a certain selected set of columns in a certain order, with no grouping or summarization, data only limited by filters.
-
-
-
-A crostab's default behavior is to merge  duplicate cells into  row and column headers.
-
-Crosstabs can include subtotals and grand totals, including subtotals for individual columns and grand total columns or rows.
-
-
-A table consists of detail rows containing cells pertaining to selected column headers and table style, with the option to export rows.
-
-WHEN DO I NEED A CROSSTAB?
-Crosstabs are for when you want data to be grouped and summarized or aggregated in numerical form. They provide a potentially more detailed alternative to charts, with the potential to display many more aggregates broken down by a greater number of dimension than a chart. They are good for use cases where displaying exact humerical aggregates is vital to the dashboard display, such as when data aggregates are very close to each other numerically.
-
-
 WHEN DO I NEED A TABLE?
 Tables maintain data at the level of detail made available by the data worksheet. If you already have grouping and aggregation built into the data source or the worksheet, a detail table may not be so detailed.
 
 Use a detail table  to maintain data at detail level that is available at the dashboard level, the detail level is maintained as an organized set of rows and columns
 
 If data is very pre aggregated at the data worksheet level, then there will not be very much aggregation happening in the crosstab.
+
+WHEN DO I NEED A CROSSTAB?
+Crosstabs are for when you want data to be grouped and summarized or aggregated in numerical form. They provide a potentially more detailed alternative to charts, with the potential to display many more aggregates broken down by a greater number of dimension than a chart. They are good for use cases where displaying exact humerical aggregates is vital to the dashboard display, such as when data aggregates are very close to each other numerically.
+
+
+
 
 With a detail table,  "what you see is what you get".
 
