@@ -51,7 +51,7 @@ If you're not sure what dashboard element you want, you can begin your search fo
  
  ![](screenshots/select-product-category.PNG)
  
- However, If you start introducing additional dimensions, once you get to three or more the reccomender starts reccomending a flat detail level table, as that is the common use case for several dimensions with no measures. Without measures there can't be aggregation.
+ However, If you start introducing additional dimensions, once you get to three or more the recommender starts reccomending a flat detail level table, as that is the common use case for several dimensions with no measures. Without measures there can't be aggregation.
 
  ![](screenshots/add-product-name.PNG)
  
