@@ -97,6 +97,7 @@ The table now only appears when a data point in the chart is moused over, displa
 # Alternatives to a table <a name="alt"></a>
 
 There are other options besides a table to show detail level rows. When viewing a crosstab, users can utilize the 'Show Details' feature, multiselecting desired cells and clicking the microscope icon in the popup menu commands to  display all rows that make up the selected aggregates.
+
 ![](screenshots/multi-select-cells.PNG)
 
 This results in a popup window full of detail level data for the selected cells, with a button to download the detail level data.
