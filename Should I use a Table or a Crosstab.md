@@ -2,7 +2,7 @@
 
 
 
-WHAT A TABLE DOES VS WHAT A CROSSTAB DOES
+
 
 Should I use a table or a crosstab? This depends on whether you want to display row level data or display grouped and summarized data.
 
@@ -54,6 +54,10 @@ Use a detail table  to maintain data at detail level that is available at the da
 
 If data is very pre aggregated at the data worksheet level, then there will not be very much aggregation happening in the crosstab.
 
+With a detail table,  "what you see is what you get".
+
+The question is, how important is detail level data to your end users? A detail level table guarantees that detail data will be available in the dashboard's exported form.
+
 # When should I use a crosstab?
 
 Crosstabs are for when you want data to be grouped and summarized or aggregated in numerical form. They provide a potentially more detailed alternative to charts, with the potential to display many more aggregates broken down by a greater number of dimension than a chart. They are good for use cases where displaying exact humerical aggregates is vital to the dashboard display, such as when data aggregates are very close to each other numerically.
@@ -61,20 +65,24 @@ Crosstabs are for when you want data to be grouped and summarized or aggregated 
 
 
 
-With a detail table,  "what you see is what you get".
-
-The question is, how important is detail level data to your end users? A detail level table guarantees that detail data will be available in the dashboard's exported form.
-
-
 
 
 # Different uses for a table
 
 Some will use a detail table with flyover, using a chart or crosstab displaying aggregates and having the detail table display detail rows of the aggregate moused over "permanent show details filtered by a chart"
+
+![](screenshots/flyover-table.PNG)
+
 A detail level table is for displaying transactional data with data driven highlights or it can be used as a flyover.
 A detail table can even be hidden behind a chart to provide raw data for export only. It can also be placed in a tab behind a chart for a quick drilldown option.
-They can also do a data tip view, to have a detail table appear over a data point aggregate instead of taking up space in the dashboard
+They can also do a data tip view, to have a detail table appear over a data point aggregate instead of taking up space in the dashboard.
+![](screenshots/table-tooltip.PNG)
+
+![](screenshots/table-tooltip-result.PNG)
+
 Either option exports easily.
+
+
 
 
 
@@ -82,6 +90,10 @@ Either option exports easily.
 # Alternatives to a table
 
 However the 'Show Details' feature can be used in liew of detail table.
+
+![](screenshots/multi-select-cells.PNG)
+
+![](screenshots/show-details.PNG)
 
 There are other options besides a table to show detail level rows. When viewing a crosstab, users can utilize the show details feature, multiselecting desired cells and clicking 'Show Details' in the popup menu commands to  display all rows that make up the selected aggregates.
 
@@ -102,12 +114,14 @@ A crosstab supports date comparisons, while a detail level table does not.
 Crosstabs can include subtotals and grand totals, including subtotals for individual columns and grand total columns or rows.
 Tables are for detail level transactional data.
 
+![](screenshots/add-total-columns-and-rows.PNG)
 
 # What Features are unique to a table?
 
 table ensures that detail level data is available in a dashboard export
 For this reason a detail level table is useful for data grabs.
 Tables have options for sorting and options for hidden fields for dynamic highlighting across a row based off of a value in that row. Table row highlights can factor in hidden columns in their calculations, for when there are values that you'd prefer not to show but are still vital in making calculations.
+
 
 On a crosstab you cannot utilize a hidden column to calculate highlights, as you can on a detail table.
 On a detail table you have the option to highlight across the entire row, whereas in a crosstab individual cells are highlighted, as they are distince aggregates
