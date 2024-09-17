@@ -21,7 +21,7 @@ A table consists of detail rows containing cells pertaining to selected column h
 Crosstabs are for those who want to display data in summarized way, for when detail level data is left available at the dashboard level. Crosstabs always do grouping and summarization. When creating a crosstab, you select dimensions for row grouping, select dimensions for column groupings, and select the aggregation methods for the measures you choose.A crostab's default behavior is to merge  duplicate cells into  row and column headers.
 
 
-GETTING IDEAS BY USING THE VISUALIZATION RECCOMENDER
+# Using the Visualization Recommender for ideas
 
  You can begin your search for the ideal chart oubput by making a note of what our product would assume by using InetSoft's Visualization Reccomender. This is the option that first appears when you create a dashboard. It selects an ideal dashboard output option based on which columns from the dataset are selected. 
  ![](screenshots/recommender1.PNG)
