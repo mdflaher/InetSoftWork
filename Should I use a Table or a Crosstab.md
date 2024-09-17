@@ -14,7 +14,7 @@ A simple flat tables does not aggregate metrics; it simply displays individual d
 A table presents a certain selected set of columns in a certain order, with no grouping or summarization, data only limited by filters.
 A table consists of detail rows containing cells pertaining to selected column headers and table style, with the option to export rows.
 
-##Crosstabs
+## Crosstabs
 
 ![](screenshots/resize-crosstab.PNG)
 
