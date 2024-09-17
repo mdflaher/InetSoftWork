@@ -6,7 +6,8 @@ WHAT A TABLE DOES VS WHAT A CROSSTAB DOES
 
 Should I use a table or a crosstab? This depends on whether you want to display row level data or display grouped and summarized data.
 
-
+ ![](screenshots/detail-level-table.PNG)
+ 
 A simple flat tables does not aggregate metrics; it simply displays individual detail level rows of the columns selected, limited by dashboard filters.
 A table presents a certain selected set of columns in a certain order, with no grouping or summarization, data only limited by filters.
 A table consists of detail rows containing cells pertaining to selected column headers and table style, with the option to export rows.
