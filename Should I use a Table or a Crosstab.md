@@ -3,7 +3,7 @@ Should I use a table or a crosstab? This depends on whether you want to display 
 
 [Tables](#able)
 
-[HCrosstabs](#cross)
+[Crosstabs](#cross)
 
 [Using the Visualization Recommender](#recommend)
 
