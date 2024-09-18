@@ -141,7 +141,7 @@ Both allow highlighting with data driven formatting. Both can be exported either
 
 Crosstabs follow a format of outer grouping followed by inner grouping  followed by calculated values,  with duplicate dimension headers being merged into larger labels. If these default settings are unsatisfactory but you still want to group and aggregate data in a table format, you can display the same kinds of aggregates using a freehand table, but with much greater flexibility when it comes to formatting and layout. (See document titled "How to Recreate an Excel Report with InetSoft" for instructions on freehand tables.)
 
-A freehand table enables you to control whether duplicate column and row headers get merged together or stay apart. Freehand tables also allow you to display detail level data alongside agregates such as totals, giving you the best of both worlds. 
+A freehand table enables you to control whether duplicate column and row headers get merged together or stay apart. Freehand tables also allow you to display detail level data alongside agregates such as totals, giving you the best of both worlds. You can even create a freehand table that combines multiple crosstabs into one, like  [this example](https://www.inetsoft.com/public/app/viewer/view/global/Dashboards/Return%20Analysis%20Table).
 
 
 With this flexibility offered by freehand tables, many aggregations done at the data level to be unnecessary.
