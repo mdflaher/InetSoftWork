@@ -60,7 +60,7 @@ Adding a measure causes the Recommender to switch back to a chart, as it assumes
 ![](screenshots/add-dimension.PNG)
 
 You can manually switch output types by clicking one of the icons above the displayed data. Switching to a crosstab results in the Reccomender choosing a pivot style table based on fields selected and the order they were added, 
-with horizontal and vertical groupings along row and column headers, and calculated values populated throughout. ( A pivot table is a table of aggregates of individual values from a more extensive table, aggregated within one or more discrete categories.)
+with horizontal and vertical groupings along row and column headers, and calculated values populated throughout. (A pivot table is a table of aggregates of individual values from a more extensive table, aggregated within one or more discrete categories.)
 
 ![](screenshots/switch-to-crosstab.PNG)
 
