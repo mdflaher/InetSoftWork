@@ -19,12 +19,11 @@ Not all data needs to be looked at at the transactional level by all your users
 Pre aggregating can save space on a materialized view
 
 # Cases where pre-aggregation is necessary
-If you’re doing a mashup of different levels of detail data you d want to do in the worksheet. You could have detail level data and nongralular data such as goal numbers. Or important companywide numbers such as budgets
-Might want to compare individual transactions to sales goals
-For this youd do a mashup in the worksheet but with mashing up sum numbers to detail levels youd add a column that’s not applicable since its an aggregate in a detail row, so you can pre aggregate the data to match the sum values yourre comparing them too
-Sometimes the only way to do the layered calculation desired is to presummaryize at a certain level
-Also need worksheet for step through calculation, such as column for fields max value  to be included at detail level for calculation
-Sum counts and quantities  can be useful for comparing to detail level for calculating ratios
+If you’re doing a mashup of different levels of detail data you'd want to do in the worksheet. There may be instances where you are performing calculations with detail level data and nongralular data such as goal numbers, or important companywide numbers such as budgets.  For example, you may be comparing aggregate sales transactions to sales goals.
+
+For this youd do a data mashup in the data worksheet. However. mashing up sum numbers with detail level  would add a column that’s not applicable since its an aggregate in a detail row. For this reason it'd make more sense to pre aggregate the data to match the sum values yourre comparing them too.
+The worksheet is also needed for step through calculation, such as adding a column for a fields max value. This would be needed to perform the detail level calculation of comparing individual values to the max value. Sums, counts, and other quantities can be useful as detail level rows for calculating ratios against detail cells.
+
 Worksheet calculations for either aligning data from different locations at different levels of details, combining without double counting or summing of values, mashup in worksheet for combined displays or step thorugh calculations
 Multiple stage calculations
 
