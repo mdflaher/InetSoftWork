@@ -1,6 +1,6 @@
 BENEFITS OF LEAVING AGGREGATION TO THE DASHBOARD
-One thing to consider how details wont show details if data is already that aggregated
-The main benefit of leaving the data at the transactional/detail level is that leaving the greatest level of detail available you to have a a variety of dashboard elements grouping and summarizing the data in completely different ways without having to work around whatever way the data is pre-aggregated. For example if data was preaggrated as averages across a variety of dimensions, record count would be unavialabel. Pre aggregating makes the data less flexible when it comes to design choices. A calculation can be in contrast to how the data was pregrouped and summarized it in the data layer.  Sells yourself short in flexibility
+One thing to consider is that if your data is coming into the dashboard pre-aggregated, the 'Show Details' function on a chart or crosstab will often end up showing the same level of detail that the chart or crosstab provides, not giving any further layer of granularity.
+The main benefit of leaving the data at the transactional/detail level is that by leaving the greatest level of detail available you can have build a dashboard with a large variety of output elements all grouping and summarizing the data in completely different ways without having to work around whatever way the data is pre-aggregated. When attempting to build the same dashboard with pre-aggregated data, you may find that a calculation can be in contrast to how the data was pregrouped and summarized it in the data layer.  For example if data was preaggrated as averages of records across a variety of dimensions, record count would be an unavailable metric. SO pre aggregating makes the data less flexible when it comes to design choices.  
 
 Performing calculations on pre calculated data can be problematic
 Get full benefit with ad hoc editing, changing dimensions and calculation levels and types
@@ -34,6 +34,6 @@ What are the options for hiding aggregate columns?
 What about using multiple queries?
 Comparative analysis from different sources of granularity, making sure the binding and math at dashboard level is as simple and straightforward as possible
 
-Leave it to dashboard levelif you don’t have different  queries at different levels of granularity, don’t need to reduce data volume, you can give the users show details capability and the most flexibility with different types of summarizations and different combinations of dimensions
+if you can, best to not sell yourself short on design flexibility. Leave it to dashboard levelif you don’t have different  queries at different levels of granularity, don’t need to reduce data volume, you can give the users show details capability and the most flexibility with different types of summarizations and different combinations of dimensions
 
 
