@@ -23,7 +23,7 @@ Many InetSoft users will begin with complicated pre-aggregated queries coming in
 
 
 
-For this reason we enncourage users to as much aggregation to the dashboard level as is possible, as otherwise data can be pre summarized to a level to leave little flexibility and no drilldown capability. However, there are certain types of use cases in which aggregation will need to be done at hte worksheet level instead of the dashboard level. These use cases will be described in the next section.
+For this reason we enncourage users to leave as much aggregation to the dashboard level as is possible, as otherwise data can be pre-summarized to a level which leaves little flexibility and no drilldown capability. However, there are certain types of use cases in which aggregation will need to be done at the worksheet level instead of the dashboard level. These use cases will be described in the next section.
 
 # When to pre-group and summarized data in the worksheet <a name="work"></a>
 
