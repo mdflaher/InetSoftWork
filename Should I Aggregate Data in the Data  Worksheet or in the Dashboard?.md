@@ -25,7 +25,7 @@ Many InetSoft users will begin with complicated pre-aggregated queries coming in
 
 For this reason we enncourage users to leave as much aggregation to the dashboard level as is possible, as otherwise data can be pre-summarized to a level which leaves little flexibility and no drilldown capability. However, there are certain types of use cases in which aggregation will need to be done at the worksheet level instead of the dashboard level. These use cases will be described in the next section.
 
-# When to pre-group and summarized data in the worksheet <a name="work"></a>
+# When to pre-group and summarize data in the worksheet <a name="work"></a>
 
 When your use of analytics involve industry or company specific calculations and you are concerned about them being performed in the correct way, it's better to lock off these aggregations in  a data worksheet to make sure employees are using the calculations correctly. An added benefit is that these calculations could be changed at companywide level by changing the single worksheet, resulting in an update to all the dashboards pulling the calculation from the single worksheet.
 
