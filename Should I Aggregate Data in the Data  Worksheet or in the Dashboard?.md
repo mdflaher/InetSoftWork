@@ -13,13 +13,12 @@ For this reason we enncourage users to as much aggregation to the dashboard leve
 
 # When to pre-grouped and summarized data in the worksheet
 
-When industry or company specific calculations are done and you need to regulate how theyre done
-Locking off a data worksheet can be used to regulate and make sure employees are using the calculations, could be changed at companywide level, don’t have to change all the dashboard
+When your use of analytics involveindustry or company specific calculations and you are concerned about them being performed in the correct way, it's better to lock off these aggregations in  a data worksheet to make sure employees are using the calculations correctly. An added benefit is that these calculations could be changed at companywide level by changing the single worksheet, resulting in an update to all the dashboards pulling the calculation from the single worksheet.
 Also reduces data volume. 
 Not all data needs to be looked at at the transactional level by all your users
 Pre aggregating can save space on a materialized view
-INTRODUCTING MATERIALIZED VIEWS
-CASES WHERE PRE AGGREGATION IS NECESSARY
+
+# Cases where pre-aggregation is necessary
 If you’re doing a mashup of different levels of detail data you d want to do in the worksheet. You could have detail level data and nongralular data such as goal numbers. Or important companywide numbers such as budgets
 Might want to compare individual transactions to sales goals
 For this youd do a mashup in the worksheet but with mashing up sum numbers to detail levels youd add a column that’s not applicable since its an aggregate in a detail row, so you can pre aggregate the data to match the sum values yourre comparing them too
