@@ -24,16 +24,10 @@ If you’re doing a mashup of different levels of detail data you'd want to do i
 For this youd do a data mashup in the data worksheet. However. mashing up sum numbers with detail level  would add a column that’s not applicable since its an aggregate in a detail row. For this reason it'd make more sense to pre aggregate the data to match the sum values yourre comparing them too.
 The worksheet is also needed for step through calculation, such as adding a column for a fields max value. This would be needed to perform the detail level calculation of comparing individual values to the max value. Sums, counts, and other quantities can be useful as detail level rows for calculating ratios against detail cells.
 
-Worksheet calculations for either aligning data from different locations at different levels of details, combining without double counting or summing of values, mashup in worksheet for combined displays or step thorugh calculations
-Multiple stage calculations
+So worksheet calculations are necessary for either aligning data from different locations at different levels of details, combining data without double counting or summing of values, multiple stage calculations, combined displays or step thorugh calculations.
 
-These are instances where the data must go through multiple separate then combined levels of calculations
-Will depend on whats aggregated already at the datasource
-Introduce mashup as well
-What are the options for hiding aggregate columns?
-What about using multiple queries?
-Comparative analysis from different sources of granularity, making sure the binding and math at dashboard level is as simple and straightforward as possible
+# Summary
 
-if you can, best to not sell yourself short on design flexibility. Leave it to dashboard levelif you don’t have different  queries at different levels of granularity, don’t need to reduce data volume, you can give the users show details capability and the most flexibility with different types of summarizations and different combinations of dimensions
 
+If you can, best to leave aggregation to the dashboard and not sell yourself short on design flexibility,  giving your users the most flexibility with different types of summarizations and different combinations of dimensions as well as full 'Show Details' capability.  However there are instances where the data must go through multiple separate then combined levels of calculations, in which case it is necessary to perform the aggregation in the worksheet. So leave it to dashboard level if you don’t have different  queries at different levels of granularity.
 
