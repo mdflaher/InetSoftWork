@@ -4,13 +4,13 @@ The main benefit of leaving the data at the transactional/detail level is that b
 
 
 When you leave your data at the detail level and do your aggregations in dashboard output elements like charts and crosstabs, you can give your users the full benefit of ad hoc editing, letting them change chart dimensions and calculation levels and types.
-Many InetSoft users will begin with complicated pre aggregated queries coming in from their database, only to find that these are only good for one dashboard output element. Once they see the kind of aggregations and summations that can be performed in the dashboard, they end up de-aggregating their data at the source and leaving the aggregation to the dashboard.
-Can change mind on dashboard design without going back to data layer, can use same worksheet among many dashboards
-Date volume, mixing granularity, step through calulations
+Many InetSoft users will begin with complicated pre aggregated queries coming in from their database, only to find that these are only good for one dashboard output element. Once they see the kind of aggregations and summations that can be performed in the dashboard, they end up de-aggregating their data at the source and leaving the aggregation to the dashboard. Leaving your dat at the detail level gives dashboard designers greater flexibility to change metrics without having to go back to the data layer.  Using the same data worksheet for many different dashboards can reduce the worktime on dashboard development and also help preserve the integrity of the data.
+Date volume, mixing granularity, step through calulations. 
 Materialized views will help with data volume concerns, but aggregating in worksheet can as well
-Encourage users to leave aggregation for our tool at least the data worksheet if not the dashboard
-Data can be pre summarized to a level to leave little flexibility and no drilldown capability
-BENEIFITS OF PRE GROUPED AND SUMMARIZED DATA
+For this reason we enncourage users to as much aggregation to the dashboard level as is possible, as otherwise data can be pre summarized to a level to leave little flexibility and no drilldown capability. However, there are certain types of use cases in which aggregation will need to be done at hte worksheet level instead of the dashboard level. These use cases will be described in the next section.
+
+# When to pre-grouped and summarized data in the worksheet
+
 When industry or company specific calculations are done and you need to regulate how theyre done
 Locking off a data worksheet can be used to regulate and make sure employees are using the calculations, could be changed at companywide level, don’t have to change all the dashboard
 Also reduces data volume. 
