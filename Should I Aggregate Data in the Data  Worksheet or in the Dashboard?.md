@@ -1,20 +1,26 @@
+Should I aggregate my data in the data worksheet, or in the dashboard itself? This document addresses the pros and cons of both approaches and describes cases where one approach is required.
+
 [What are the benefits of leaving aggregation to the dashboard level?](#dash)
 
-[What are the benefits of leaving aggregation to the worksheet level?](#work)
+[What are the benefits of doing aggregation at the worksheet level?](#work)
 
-[Cases where doing aggregation in the worksheet is necessary](#work2)
+[Types of use cases where doing aggregation in the worksheet is necessary](#work2)
 
 [Summary](#sum)
 
 # Benefits of leaving aggregation to the dashboard <a name="dash"></a>
 
 One thing to consider is that if your data is coming into the dashboard pre-aggregated, the 'Show Details' function on a chart or crosstab will often end up showing the same level of detail that the chart or crosstab provides, not giving any further layer of granularity.
-The main benefit of leaving the data at the transactional/detail level is that by leaving the greatest level of detail available you can have build a dashboard with a large variety of output elements all grouping and summarizing the data in completely different ways without having to work around whatever way the data is pre-aggregated. Performing calculations on pre calculated data can be problematic. When attempting to build the same dashboard with pre-aggregated data, you may find that a calculation can be in contrast to how the data was pregrouped and summarized it in the data layer.  For example if data was preaggrated as averages of records across a variety of dimensions, record count would be an unavailable metric. SO pre aggregating makes the data less flexible when it comes to design choices.  
+
+The main benefit of leaving the data at the transactional/detail level is that by leaving the greatest level of detail available you can have build a dashboard with a large variety of output elements all grouping and summarizing the data in completely different ways without having to work around whatever way the data is pre-aggregated.
+
+Performing calculations on pre calculated data can be problematic. When attempting to build the same dashboard with pre-aggregated data, you may find that a desired calculation can be in contrast to how the data was pregrouped and summarized it in the data layer.  For example if data was pre-aggrated as averages of records across a variety of dimensions, record count would be an unavailable metric. SO pre aggregating makes the data less flexible when it comes to design choices.  
 
 
 When you leave your data at the detail level and do your aggregations in dashboard output elements like charts and crosstabs, you can give your users the full benefit of ad hoc editing, letting them change chart dimensions and calculation levels and types.
-Many InetSoft users will begin with complicated pre aggregated queries coming in from their database, only to find that these are only good for one dashboard output element. Once they see the kind of aggregations and summations that can be performed in the dashboard, they end up de-aggregating their data at the source and leaving the aggregation to the dashboard. Leaving your dat at the detail level gives dashboard designers greater flexibility to change metrics without having to go back to the data layer.  Using the same data worksheet for many different dashboards can reduce the worktime on dashboard development and also help preserve the integrity of the data.
-Date volume, mixing granularity, step through calulations. .
+
+Many InetSoft users will begin with complicated pre-aggregated queries coming in from their database, only to find that these are only good for one dashboard output element. Once they see the kind of aggregations and summations that can be performed in the dashboard, they end up de-aggregating their data at the source and leaving the aggregation to the dashboard. Leaving your data at the detail level gives dashboard designers greater flexibility to change metrics without having to go back to the data layer.  Using the same data worksheet for many different dashboards can reduce the worktime on dashboard development and also help preserve the integrity of the data.
+
 
 
 For this reason we enncourage users to as much aggregation to the dashboard level as is possible, as otherwise data can be pre summarized to a level to leave little flexibility and no drilldown capability. However, there are certain types of use cases in which aggregation will need to be done at hte worksheet level instead of the dashboard level. These use cases will be described in the next section.
